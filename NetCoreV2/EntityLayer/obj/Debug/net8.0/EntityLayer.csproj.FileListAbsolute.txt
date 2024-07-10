@@ -1,0 +1,12 @@
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\bin\Debug\net8.0\EntityLayer.deps.json
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\bin\Debug\net8.0\EntityLayer.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\bin\Debug\net8.0\EntityLayer.pdb
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfoInputs.cache
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.AssemblyInfo.cs
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.sourcelink.json
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\refint\EntityLayer.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\EntityLayer.pdb
+D:\AzizProjeler\.NetCore\NetCoreV2\EntityLayer\obj\Debug\net8.0\ref\EntityLayer.dll

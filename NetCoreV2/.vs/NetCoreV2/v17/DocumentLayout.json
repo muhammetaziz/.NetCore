@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\writer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +46,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "DataAccessLayer",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T22:18:00.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "About.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\About.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\About.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\About.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\About.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:55:32.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Contact.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Contact.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Contact.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Contact.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:52:48.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Comment.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Comment.cs",
               "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Comment.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Comment.cs",
               "RelativeToolTip": "EntityLayer\\Concrete\\Comment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:44:55.806Z",
               "EditorCaption": ""
@@ -53,20 +104,20 @@
               "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Writer.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Writer.cs",
               "RelativeToolTip": "EntityLayer\\Concrete\\Writer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:42:26.644Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Blog.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Blog.cs",
               "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Blog.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Blog.cs",
               "RelativeToolTip": "EntityLayer\\Concrete\\Blog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:38:17.771Z",
               "EditorCaption": ""
@@ -79,7 +130,7 @@
               "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Category.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Category.cs",
               "RelativeToolTip": "EntityLayer\\Concrete\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-10T21:33:16.281Z",
               "EditorCaption": ""
