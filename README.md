@@ -1,0 +1,2 @@
+# .NetCore
+ .NetCoreVersion2
