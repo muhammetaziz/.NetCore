@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\concrete\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9799D40F-E643-477A-8B3F-B16DE81665F6}|EntityLayer\\EntityLayer.csproj|solutionrelative:entitylayer\\entitylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Category.cs",
+              "RelativeDocumentMoniker": "EntityLayer\\Concrete\\Category.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\Concrete\\Category.cs",
+              "RelativeToolTip": "EntityLayer\\Concrete\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T21:33:16.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityLayer",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\EntityLayer.csproj",
+              "RelativeDocumentMoniker": "EntityLayer\\EntityLayer.csproj",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\EntityLayer\\EntityLayer.csproj",
+              "RelativeToolTip": "EntityLayer\\EntityLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-10T21:32:43.381Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("NetCoreV2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("CoreLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7c1843ca5835786e2c0aa2c37ead572136510896")]
-[assembly: System.Reflection.AssemblyProductAttribute("NetCoreV2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("NetCoreV2")]
+[assembly: System.Reflection.AssemblyProductAttribute("CoreLayer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("CoreLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
