@@ -35,15 +35,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataAccessLayer",
+              "Title": "DataAccessLayer.csproj",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\DataAccessLayer.csproj",
               "RelativeDocumentMoniker": "DataAccessLayer\\DataAccessLayer.csproj",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\DataAccessLayer.csproj",
               "RelativeToolTip": "DataAccessLayer\\DataAccessLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-11T23:42:26.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:42:26.767Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\CategoryManager.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\CategoryManager.cs",
               "RelativeToolTip": "BusinessLayer\\Concrete\\CategoryManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAEAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwCEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T23:23:14.207Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "BusinessLayer\\Abstract\\ICategoryServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T23:20:19.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:20:19.585Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-11T23:13:20.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T23:13:20.251Z"
             }
           ]
         }

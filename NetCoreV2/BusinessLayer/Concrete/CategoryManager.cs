@@ -11,7 +11,7 @@ namespace BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryServices
     {
-        CategoryRepository categoryRepository=new CategoryRepository();//burda kaldık
+        CategoryRepository categoryRepository = new CategoryRepository();//burda kaldık
         public void CategoryAdd(Category category)
         {
             throw new NotImplementedException();
