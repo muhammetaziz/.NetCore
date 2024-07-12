@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\repositories\\blogrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\blogrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efwriterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efwriterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efblogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efaboutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efaboutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efcommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efcontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efcontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,110 +35,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T22:33:43.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T22:32:59.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogRepositories.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Repositories\\BlogRepositories.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\BlogRepositories.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Repositories\\BlogRepositories.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\BlogRepositories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T22:32:24.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\Category.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\Category.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\Category.cs",
               "RelativeToolTip": "NetCoreV2\\Controllers\\Category.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAiwAMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T21:16:33.38Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CategoryManager.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\CategoryManager.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\CategoryManager.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\CategoryManager.cs",
               "RelativeToolTip": "BusinessLayer\\Concrete\\CategoryManager.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBgAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:57:01.542Z",
+              "WhenOpened": "2024-07-12T22:14:26.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EFCategoryRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFCategoryRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFCategoryRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFCategoryRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFCategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T20:58:40.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EFWriterRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFWriterRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFWriterRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFWriterRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFWriterRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:04:33.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EFContactRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFContactRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFContactRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFContactRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFContactRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:03:47.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EFCommentRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFCommentRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFCommentRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFCommentRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFCommentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:03:00.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EFAboutRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFAboutRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFAboutRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFAboutRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFAboutRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:01:59.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EFBlogRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFBlogRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFBlogRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFBlogRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFBlogRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-12T21:01:03.976Z",
-              "EditorCaption": ""
             }
           ]
         }
