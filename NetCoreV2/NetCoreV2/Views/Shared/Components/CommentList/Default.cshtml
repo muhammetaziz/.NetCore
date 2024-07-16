@@ -1,0 +1,8 @@
+﻿@model IEnumerable<NetCoreV2.Models.UserComment>
+<h1>Burası View Component Default Kısmı</h1>
+
+@foreach(var item in Model)
+{
+    <p>@item.userID</p>
+    <p>@item.UserName</p>
+}

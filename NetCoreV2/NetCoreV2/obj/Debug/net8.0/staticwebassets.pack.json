@@ -321,12 +321,28 @@
       "PackagePath": "staticwebassets\\web\\images\\8.jpg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Bozkurt.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Bozkurt.jpg"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\BreakingBad.jpg",
       "PackagePath": "staticwebassets\\web\\images\\BreakingBad.jpg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Frostpunk.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Frostpunk.jpg"
+    },
+    {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Space.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\Space.jpg"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Thumbs.db",
       "PackagePath": "staticwebassets\\web\\images\\Thumbs.db"
+    },
+    {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\alien.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\alien.jpg"
     },
     {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\b1.jpg",

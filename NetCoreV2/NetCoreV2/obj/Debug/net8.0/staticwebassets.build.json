@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bPLe5ve/TkQNFLSVmoMmQHUwexdXrNVeTDHznvcqy68=",
+  "Hash": "4N3KiXhKhroLMNwrqAqfJXu3GwD+gYIiIqKeSDGODZY=",
   "Source": "NetCoreV2",
   "BasePath": "_content/NetCoreV2",
   "Mode": "Default",
@@ -1556,6 +1556,25 @@
       "OriginalItemSpec": "wwwroot\\web\\images\\8.jpg"
     },
     {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\alien.jpg",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/alien.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\alien.jpg"
+    },
+    {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\b1.jpg",
       "SourceId": "NetCoreV2",
       "SourceType": "Discovered",
@@ -1746,6 +1765,25 @@
       "OriginalItemSpec": "wwwroot\\web\\images\\banner5.jpg"
     },
     {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Bozkurt.jpg",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/Bozkurt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\Bozkurt.jpg"
+    },
+    {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\BreakingBad.jpg",
       "SourceId": "NetCoreV2",
       "SourceType": "Discovered",
@@ -1763,6 +1801,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\web\\images\\BreakingBad.jpg"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Frostpunk.jpg",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/Frostpunk.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\Frostpunk.jpg"
     },
     {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\left.png",
@@ -1877,6 +1934,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\web\\images\\right.png"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Space.jpg",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/Space.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\Space.jpg"
     },
     {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\t1.jpg",
