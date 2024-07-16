@@ -321,6 +321,10 @@
       "PackagePath": "staticwebassets\\web\\images\\8.jpg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\BreakingBad.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\BreakingBad.jpg"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Thumbs.db",
       "PackagePath": "staticwebassets\\web\\images\\Thumbs.db"
     },
