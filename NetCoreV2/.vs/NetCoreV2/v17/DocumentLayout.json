@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\commentlistbyblog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\commentlistbyblog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\commentlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\commentlist\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\comment\\commentlistbyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\comment\\commentlistbyblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\viewcomponents\\comment\\commentlistbyblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\viewcomponents\\comment\\commentlistbyblog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\blog\\blogreadall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\blog\\blogreadall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\viewcomponents\\commentlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\models\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\models\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\blog\\blogreadall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\blog\\blogreadall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Blog\\Index.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\Index.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Blog\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAVAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-15T22:57:12.307Z",
               "IsPinned": true,
@@ -48,7 +56,50 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\CommentListByBlog\\Default.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\CommentListByBlog\\Default.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\CommentListByBlog\\Default.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\CommentListByBlog\\Default.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T21:39:17.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentListByBlog.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Comment\\CommentListByBlog.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Comment\\CommentListByBlog.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Comment\\CommentListByBlog.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Comment\\CommentListByBlog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T21:48:23.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CommentListByBlog.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Comment\\CommentListByBlog.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\ViewComponents\\Comment\\CommentListByBlog.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Comment\\CommentListByBlog.cs",
+              "RelativeToolTip": "NetCoreV2\\ViewComponents\\Comment\\CommentListByBlog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T21:32:20.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserComment.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Models\\UserComment.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\Models\\UserComment.cs",
@@ -56,8 +107,7 @@
               "RelativeToolTip": "NetCoreV2\\Models\\UserComment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T20:36:34.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T20:36:34.963Z"
             },
             {
               "$type": "Document",
@@ -67,40 +117,23 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Blog\\BlogReadAll.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\BlogReadAll.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Blog\\BlogReadAll.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADMAAAAKAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADUAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-16T20:32:21.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\CommentList\\Default.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\CommentList\\Default.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\CommentList\\Default.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\CommentList\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-16T20:31:47.964Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CommentList.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\CommentList.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\ViewComponents\\CommentList.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\CommentList.cs",
               "RelativeToolTip": "NetCoreV2\\ViewComponents\\CommentList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-16T20:26:21.265Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
