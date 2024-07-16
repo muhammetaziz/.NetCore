@@ -32,26 +32,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
     <header>
         @await Html.PartialAsync("Partial2")
-        @await Html.PartialAsync("Partial1")
-
+        @await Html.PartialAsync("Partial1") 
     </header>
-    <div class="banner-inner">
-    </div>
+     
     <ol class="breadcrumb">
         <li class="breadcrumb-item">
             <a href="index.html">Ana Sayfa</a>
         </li>
         <li class="breadcrumb-item active">Blog3</li>
-    </ol>
+    </ol> 
 
-     
-    <br />
-
-    @RenderBody()
-
-    <br />
-     
-
+    @RenderBody() 
 
     @await Html.PartialAsync("FooterPartial")
     <script src="~/web/js/jquery-2.2.3.min.js"></script>
