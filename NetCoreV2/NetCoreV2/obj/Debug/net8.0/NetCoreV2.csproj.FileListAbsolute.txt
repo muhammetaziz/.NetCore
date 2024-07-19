@@ -258,3 +258,7 @@ D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\runtimes\win\lib\n
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\obj\Debug\net8.0\NetCoreV2.MvcApplicationPartsAssemblyInfo.cs

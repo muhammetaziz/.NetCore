@@ -10,3 +10,4 @@ D:\AzizProjeler\.NetCore\NetCoreV2\CoreLayer\obj\Debug\net8.0\CoreLayer.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\CoreLayer\obj\Debug\net8.0\refint\CoreLayer.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\CoreLayer\obj\Debug\net8.0\CoreLayer.pdb
 D:\AzizProjeler\.NetCore\NetCoreV2\CoreLayer\obj\Debug\net8.0\ref\CoreLayer.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\CoreLayer\obj\Debug\net8.0\CoreLayer.csproj.AssemblyReference.cache
