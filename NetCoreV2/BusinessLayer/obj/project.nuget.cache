@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FdGNkfHbey1xKYTe+MPVHphbvK2pv1yEOn8Bq6hTeb3nhVgB5aBBhPI8J6Wrvy1AxKqcZ7zIdi8wh52jCE2+JQ==",
+  "dgSpecHash": "pqiesiEP1R1C2dfqBMDjx8gstJMMVyI6BvuNIPQc3vlj0rLst73wNwPUmhnsy4mWXimWtCHK9jRaDuT/jOkYpg==",
   "success": true,
   "projectFilePath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khada\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\khada\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\khada\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\khada\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\khada\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\khada\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\khada\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\khada\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
