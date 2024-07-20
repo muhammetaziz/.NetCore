@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4N3KiXhKhroLMNwrqAqfJXu3GwD+gYIiIqKeSDGODZY=",
+  "Hash": "Sa9znGVPifBNMVQAHp3na/RKMGP2daxXH2YDthdVD6E=",
   "Source": "NetCoreV2",
   "BasePath": "_content/NetCoreV2",
   "Mode": "Default",
@@ -1820,6 +1820,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\web\\images\\Frostpunk.jpg"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\hülagüHan.jpeg",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/hülagüHan.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\hülagüHan.jpeg"
     },
     {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\left.png",

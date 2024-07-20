@@ -385,6 +385,10 @@
       "PackagePath": "staticwebassets\\web\\images\\banner5.jpg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\hülagüHan.jpeg",
+      "PackagePath": "staticwebassets\\web\\images\\hülagüHan.jpeg"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\left.png",
       "PackagePath": "staticwebassets\\web\\images\\left.png"
     },

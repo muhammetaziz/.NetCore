@@ -15,9 +15,9 @@
                     @foreach (var item in Model)
                     {
 
-                        <div class="col-lg-4 card">
+                        <div class="col-lg-4 card" style="height:650px">
                             <a href="/Blog/BlogReadAll/@item.BlogID/">
-                                <img src="@item.BlogImage" class="card-img-top img-fluid" style=" height:250px; width:400px" alt="">
+                                <img src="@item.BlogImage" class="card-img-top img-fluid" style=" height:250px; width:450px" alt="">
                             </a>
                             <div class="card-body">
                                 <ul class="blog-icons my-4">
@@ -28,45 +28,46 @@
                                     </li>
                                     <li class="mx-2">
                                         <a href="#">
-                                            <i class="far fa-comment"></i> Yazar
+                                            <i class="far fa-comment">0 &nbsp;</i>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#">
-                                            <i class="fas fa-eye"></i>@item.Category.CategoryName
+                                            <i class="fas fa-archive"></i>@item.Category.CategoryName
                                         </a>
                                     </li>
 
-                                </ul>
+                                </ul>   
                                 <h5 class="card-title">
                                     <a href="/Blog/BlogReadAll/@item.BlogID/">@item.BlogTitle</a>
                                 </h5>
-                                <p class="card-text mb-3">@item.BlogContent.Substring(0, item.BlogContent.Substring(0, 150).LastIndexOf(" ")) ...</p>
+                                <p class="card-text mb-3"style="height:150px">@item.BlogContent.Substring(0, item.BlogContent.Substring(0, 150).LastIndexOf(" ")) ...</p>
                                 <a href="/Blog/BlogReadAll/@item.BlogID/" class="btn btn-primary read-m">Devamını Oku...</a>
                             </div>
-                        </div>  
+                            
+                        </div>
 
-                    }  
-                </div>  
-                    <nav aria-label="Page navigation example">
-                        <ul class="pagination justify-content-left mt-4">
-                            <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Önceki</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">1</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">2</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">3</a>
-                            </li>
-                            <li class="page-item">
-                                <a class="page-link" href="#">Sonraki</a>
-                            </li>
-                        </ul>
-                    </nav> 
+                    }
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-left mt-4">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1">Önceki</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Sonraki</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
