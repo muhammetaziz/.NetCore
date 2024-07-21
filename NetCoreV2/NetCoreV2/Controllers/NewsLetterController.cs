@@ -7,14 +7,14 @@ namespace NetCoreV2.Controllers
 {
     public class NewsLetterController : Controller
     {
-        NewsLetterManager nlm=new NewsLetterManager(new EFNewsLetterRepository());
+        NewsLetterManager nlm = new NewsLetterManager(new EFNewsLetterRepository());
         [HttpGet]
         public PartialViewResult SubscribeMail()
         {
             return PartialView();
         }
 
-        [HttpGet]
+        [HttpPost]
         public PartialViewResult SubscribeMail(NewsLetter p)
         {
             p.MailStatus = true;
