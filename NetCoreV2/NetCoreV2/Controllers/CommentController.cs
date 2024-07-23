@@ -8,6 +8,7 @@ namespace NetCoreV2.Controllers
 	public class CommentController : Controller
 	{
 		CommentManager cm=new CommentManager(new EFCommentRepository());
+
 		public IActionResult Index()
 		{
 			return View();
@@ -20,14 +21,16 @@ namespace NetCoreV2.Controllers
 		}
 
 		[HttpPost]
-        public PartialViewResult PartialAddComment(Comment p)
+        public IActionResult PartialAddComment(Comment p)
         {
 			p.CommentDate = DateTime.Parse(DateTime.Now.ToShortDateString());
 			p.CommentStatus = true;
-			p.BlogID = 2;
+			p.BlogID = 3;
+			//string path="/"+(p.BlogID).ToString();
 			cm.CommentAdd(p);
-			return PartialView();
-        }
+			//return RedirectToAction("BlogReadAll","Blog", new { id = p.BlogID });
+			return RedirectToAction("Index","Blog");
+		}
 
         public PartialViewResult CommentListByBlog(int id)
 		{

@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/About/SocialMediaAbout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcU29jaWFsTWVkaWFBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/Blog/BlogReadAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUmVhZEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +52,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/Comment/PartialAddComment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxQYXJ0aWFsQWRkQ29tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/ErrorPage/Error1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JQYWdlXEVycm9yMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/Home/Index.cshtml]
