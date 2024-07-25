@@ -1,7 +1,33 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 
 var builder = WebApplication.CreateBuilder(args);
+ConfigureServices(builder.Services);
+
+
+//Authorize iþlemleri
+void ConfigureServices(IServiceCollection services)
+{
+    services.AddControllersWithViews();
+
+    services.AddSession();
+
+    services.AddMvc(config =>
+    {
+        var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
+
+        config.Filters.Add(new AuthorizeFilter(policy));
+
+    });
+    services.AddMvc();
+    services.AddAuthentication(
+        CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
+        {
+            x.LoginPath = "/Login/Index";
+        });
+}
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -21,7 +47,7 @@ app.UseStatusCodePagesWithReExecute("/ErrorPage/Error1","?code={0}");
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();
@@ -33,17 +59,3 @@ app.MapControllerRoute(
 app.Run();
 
 
-//Authorize iþlemleri
-void ConfigureServices(IServiceCollection services)
-{
-    services.AddControllersWithViews();
-
-    services.AddMvc(config =>
-    {
-        var policy = new AuthorizationPolicyBuilder().RequireAuthenticatedUser().Build();
-
-        config.Filters.Add(new AuthorizeFilter(policy));
-
-    });
-    
-}
