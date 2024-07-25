@@ -1,9 +1,11 @@
 ﻿using BusinessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreV2.Controllers
 {
+    [AllowAnonymous]
     public class BlogController : Controller
     {
         BlogManager bm=new BlogManager(new EFBlogRepository());
@@ -19,5 +21,6 @@ namespace NetCoreV2.Controllers
             var values =bm.GetBlogById(id);
             return View(values);
         }
+        
     }
 }
