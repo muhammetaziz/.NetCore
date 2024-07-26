@@ -21,5 +21,16 @@ namespace NetCoreV2.Controllers
             return View();
         }
 
+        [AllowAnonymous]
+        public PartialViewResult WriterNavbarPartial1()
+        {
+            return PartialView();
+        }
+
+        [AllowAnonymous]
+        public PartialViewResult WriterFooterPartial()
+        {
+            return PartialView();
+        } 
     }
 }
