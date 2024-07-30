@@ -797,6 +797,10 @@
       "PackagePath": "staticwebassets\\writer\\assets\\images\\logo.svg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\net-core-blog-high-resolution-logo.png",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\net-core-blog-high-resolution-logo.png"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\sprites\\blue.png",
       "PackagePath": "staticwebassets\\writer\\assets\\images\\sprites\\blue.png"
     },

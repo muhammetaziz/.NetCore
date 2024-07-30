@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -43,6 +43,10 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "WriterLayout.cshtml",
@@ -50,7 +54,7 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAGIAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-30T19:18:54.964Z",
               "EditorCaption": ""
@@ -63,14 +67,10 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Blog\\BlogListByWriter.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\BlogListByWriter.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Blog\\BlogListByWriter.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-30T18:24:17.813Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
