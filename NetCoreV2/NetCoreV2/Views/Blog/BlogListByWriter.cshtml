@@ -5,36 +5,45 @@
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
 
-<h1>BlogListByWriter</h1>
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Bloglarınız</h4>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Blog CategoryId</th>
+                        <th>Title</th>
+                        <th>Create Date</th>
+                        <th>Blog Status</th>
+                        <th>Düzenle</th>
+                        <th>Sil</th>
+                    </tr>
+                </thead>
 
-<table class="table table-bordered table-hover">
-    <thead class="thead-dark"> 
-        <tr>
-            <th>ID</th>
-            <th>Blog CategoryId</th>
-            <th>Title</th>
-            <th>Create Date</th>
-            <th>Blog Status</th>
-            <th>Düzenle</th>
-            <th>Sil</th> 
-        </tr>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.BlogID</td>
+                            <td>@item.CategoryID</td>
+                            <td>@item.BlogTitle</td>
+                            <td>@item.BlogCreateDate.ToShortDateString()</td>
+                            <td>@item.BlogStatus</td>
+                            <td><a href="#" class="btn btn-gradient-primary">Düzenle</a></td>
+                            <td><a href="#" class="btn btn-gradient-danger">Sil</a></td>
+                        </tr>
+                    }
+                </tbody>
 
-    </thead>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>@item.BlogID</td>
-            <td>@item.CategoryID</td>
-            <td>@item.BlogTitle</td>
-            <td>@item.BlogCreateDate.ToShortDateString()</td>
-            <td>@item.BlogStatus</td>
-            <td><a href="#" class="btn btn-gradient-primary">Düzenle</a></td>
-            <td><a href="#" class="btn btn-gradient-danger">Sil</a></td>
-        </tr>
-    }
+            </table>
+        </div><button href="#" class="btn btn-gradient-success"><i class="mdi mdi-plus">Yeni Blog Oluştur</i></button>
+    </div>
+</div>
 
-</table>
-&nbsp;
 
-<button href="#" class="btn btn-gradient-success"><i class="mdi mdi-plus">Yeni Blog Oluştur</i></button>
+
+
+
 @* <a href="#" class="btn btn-gradient-success"><span class="mdi mdi-plus"></span>Yeni Blog Oluştur</a> *@

@@ -4,13 +4,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Yazar Modülü</title> 
+    <title>Yazar Modülü</title>
     <link rel="stylesheet" href="~/writer/assets/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="~/writer/assets/vendors/css/vendor.bundle.base.css"> 
-    <link rel="stylesheet" href="~/writer/assets/css/style.css"> 
+    <link rel="stylesheet" href="~/writer/assets/vendors/css/vendor.bundle.base.css">
+    <link rel="stylesheet" href="~/writer/assets/css/style.css">
     <link rel="shortcut icon" href="~/writer/assets/images/favicon.ico" />
     <link href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
 
@@ -19,10 +19,11 @@
 
     <div class="container-scroller">
         <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
-            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center" >
+            <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
                 <a class="navbar-brand brand-logo" href="../../index.html"><img src="~/writer/assets/images/net-core-blog-high-resolution-logo.png" alt="logo" /></a>
-@*                 <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="~/writer/assets/images/net-core-blog-high-resolution-logo.png" alt="logo" /></a>
- *@            </div>
+                @*                 <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="~/writer/assets/images/net-core-blog-high-resolution-logo.png" alt="logo" /></a>
+                *@
+            </div>
             <div class="navbar-menu-wrapper d-flex align-items-stretch">
                 <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
                     <span class="mdi mdi-menu"></span>
@@ -93,17 +94,19 @@
                 </button>
             </div>
         </nav>
-         <div class="container-fluid page-body-wrapper"> 
+        <div class="container-fluid page-body-wrapper">
             @await Html.PartialAsync("~/Views/Writer/WriterNavbarPartial1.cshtml")
             <div class="main-panel">
-                @RenderBody()  
+                <div class="content-wrapper">
+                    @RenderBody()
+                </div>
                 @* @await Html.PartialAsync("~/Views/Writer/WriterFooterPartial.cshtml") *@
-            </div> 
-        </div> 
-    </div> 
-    <script src="~/writer/assets/vendors/js/vendor.bundle.base.js"></script> 
+            </div>
+        </div>
+    </div>
+    <script src="~/writer/assets/vendors/js/vendor.bundle.base.js"></script>
     <script src="~/writer/assets/js/off-canvas.js"></script>
     <script src="~/writer/assets/js/hoverable-collapse.js"></script>
-    <script src="~/writer/assets/js/misc.js"></script> 
+    <script src="~/writer/assets/js/misc.js"></script>
 </body>
 </html>
