@@ -94,10 +94,10 @@
             </div>
         </nav>
          <div class="container-fluid page-body-wrapper"> 
-            @await Html.PartialAsync("WriterNavbarPartial1") 
+            @await Html.PartialAsync("~/Views/Writer/WriterNavbarPartial1.cshtml")
             <div class="main-panel">
-                @RenderBody() 
-                @await Html.PartialAsync("WriterFooterPartial") 
+                @RenderBody()  
+                @* @await Html.PartialAsync("~/Views/Writer/WriterFooterPartial.cshtml") *@
             </div> 
         </div> 
     </div> 

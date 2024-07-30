@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreV2.Controllers
 {
-
+    [AllowAnonymous]
     public class WriterController : Controller
     {
         public IActionResult Index()

@@ -25,17 +25,12 @@ namespace BusinessLayer.Concrete
 
         public Category GetByIdd(int id)
         {
-            throw new NotImplementedException();
+            return _categoryDal.GetById(id);
         }
 
         public List<Category> GetList()
         {
             return _categoryDal.GetListAll();
-        }
-
-        public List<Category> GetListAll()
-        {
-            throw new NotImplementedException();
         }
 
         public void TAdd(Category t)
