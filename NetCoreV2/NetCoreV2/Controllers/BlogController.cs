@@ -28,7 +28,7 @@ namespace NetCoreV2.Controllers
 
         public IActionResult BlogListByWriter(int id)
         {
-            var values = bm.GetBlogListByWriter(1);
+            var values = bm.GetListWithCategoryByWriterbm(1);
 
             return View(values);
         }
