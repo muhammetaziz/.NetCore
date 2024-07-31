@@ -4,43 +4,48 @@
     ViewData["Title"] = "BlogAdd";
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
- 
-@using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
-{
-    @Html.Label("Blog Başlığı")
-    @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.BlogTitle)
-     
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
 
-    <br />
-
-    @Html.Label("Blog Görsel")
-    @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.BlogImage)
+            @using (Html.BeginForm("BlogAdd", "Blog", FormMethod.Post))
+            {
+                @Html.Label("Blog Başlığı")
+                @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogTitle)
 
 
-    <br />
+                <br />
 
-    @Html.Label("Blog buyuk resim")
-    @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.BlogThumbnailImage)
-     
-
-    <br />
-
-    @Html.Label("Blog Kategori")
-    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv,new{@class="form-control"})
-
-    <br />
-
-    @Html.Label("Blog İçeriği")
-    @Html.TextBoxFor(x => x.BlogContent, new { @class = "form-control" })
-    @Html.ValidationMessageFor(x => x.BlogContent)
+                @Html.Label("Blog Görsel")
+                @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogImage)
 
 
-    <br />
-    <br />
-    <br />
-    <button class="btn btn-primary submit mb-4">Kaydet</button>
-}
- 
+                <br />
+
+                @Html.Label("Blog buyuk resim")
+                @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogThumbnailImage)
+
+
+                <br />
+
+                @Html.Label("Blog Kategori")
+                @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class = "form-control" })
+
+                <br />
+
+                @Html.Label("Blog İçeriği")
+                @Html.TextBoxFor(x => x.BlogContent, new { @class = "form-control"  })
+                @Html.ValidationMessageFor(x => x.BlogContent)
+
+
+                <br />
+                <br />
+                <br />
+                <button class="btn btn-primary submit mb-4">Kaydet</button>
+            }
+        </div>
+    </div>
+</div>

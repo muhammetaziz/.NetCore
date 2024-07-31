@@ -6,60 +6,72 @@
 }
 @{
     string durum = "";
-    string s = "bg-warning";
+    string s = "table-danger";
+    int say = 0;
 }
 
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <h4 class="card-title">Bloglarınız</h4>
-            <table class="table table-bordered ">
-                <thead>
+            <table class="table table-bordered">
+                <thead class="table-dark">
                     <tr>
-                        <th>ID</th>
-                        <th>Kategori</th>
+
+                        <th width="10px">#</th>
+                        <th width="10px">Kategori</th>
                         <th>Başlık</th>
-                        <th>Tarih</th>
-                        <th>Durum</th>
-                        <th>Düzenle</th>
-                        <th>Sil</th>
+                        <th width="10px">Tarih</th>
+                        <th width="10px">Durum</th>
+                        <th width="10px">Düzenle</th>
+                        <th width="10px">Sil</th>
                     </tr>
                 </thead>
-
                 <tbody>
                     @foreach (var item in Model)
                     {
-                        @if (item.BlogStatus == true)
+                        say++;
                         {
-                            durum = "Aktif";
-                            s = "bg-success";
-                        }
-                        else
-                        {
-                            s = "bg-danger";
-                            durum = "Pasif";
+                            @if (item.BlogStatus == true)
+                            {
+                                durum = "Aktif";
+                                s = "table-success";
+                            }
+                            else
+                            {
+                                s = "table-danger";
+                                durum = "Pasif";
+                            }
                         }
                         <tr>
-                            <td>@item.BlogID</td>
+                            <td>@say</td>
                             <td>@item.Category.CategoryName</td>
-                            <td>@item.BlogTitle</td>
+                            <td>@item.BlogTitle</td> 
                             <td>@item.BlogCreateDate.ToShortDateString()</td>
-                            <td class="@s">@durum</td>
-                            <td><a href="#" class="btn btn-gradient-primary">Düzenle</a></td>
-                            <td><a href="#" class="btn btn-gradient-danger">Sil</a></td>
+                            <td style="max-width:10px" class="@s">@durum</td>
+                            <td><a href="/Blog/EditBlog/@item.BlogID" class="btn btn-gradient-primary">Düzenle</a></td>
+                            <td>
+                                <form method="post" class="delete-form" action="/Blog/DeleteBlog/@item.BlogID">
+                                    <button type="button" class="btn btn-gradient-danger delete-button" data-id="@item.BlogID">Sil</button>
+                                </form>
+                            </td>
                         </tr>
                     }
                 </tbody>
-
             </table>
         </div>
-
-         <a class="btn btn-gradient-success" href="/Blog/BlogAdd"><i class="mdi mdi-plus">Yeni Blog Oluştur</i></a> 
+        <a class="btn btn-gradient-success" href="/Blog/BlogAdd"><i class="mdi mdi-plus">Yeni Blog Oluştur</i></a>
     </div>
 </div>
 
-
-
-
-
-@* <a href="#" class="btn btn-gradient-success"><span class="mdi mdi-plus"></span>Yeni Blog Oluştur</a> *@
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".delete-button").click(function () {
+            var form = $(this).closest('form');
+            if (confirm("Bu kaydı silmek istediğinizden emin misiniz?")) {
+                form.submit();
+            }
+        });
+    });
+</script>

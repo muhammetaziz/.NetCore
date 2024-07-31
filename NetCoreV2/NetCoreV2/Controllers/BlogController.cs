@@ -38,14 +38,14 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult BlogAdd()
         {
-            CategoryManager cm=new CategoryManager();
+            CategoryManager cm = new CategoryManager();
             List<SelectListItem> categoryValues = (from x in cm.GetList()
-                                               select new SelectListItem
-                                               {
-                                                   Text = x.CategoryName,
-                                                   Value = x.CategoryID.ToString()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
 
-                                               }).ToList();
+                                                   }).ToList();
             ViewBag.cv = categoryValues;
             return View();
         }
@@ -70,7 +70,26 @@ namespace NetCoreV2.Controllers
                     ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
                 }
             }
-            return View(); 
+            return View();
+        }
+        public IActionResult DeleteBlog(int id)
+        {
+            var blogValue = bm.TGetById(id);
+            bm.TDelete(blogValue);
+            return RedirectToAction("BlogListByWriter");
+        }
+
+        [HttpGet]
+        public IActionResult EditBlog(int id)
+        {
+            var blogValue=bm.TGetById(id);
+            return View(blogValue);
+        }
+        [HttpPost]
+        public IActionResult EditBlog(Blog p)
+        {
+
+            return RedirectToAction("BlogListByWriter");
         }
 
     }

@@ -9,49 +9,45 @@ using System.Threading.Tasks;
 
 namespace BusinessLayer.Concrete
 {
-	public class BlogManager : IBlogService
-	{
-		IBlogDal _blogDal;
+    public class BlogManager : IBlogService
+    {
+        IBlogDal _blogDal;
 
-		public BlogManager(IBlogDal blogDal)
-		{
-			_blogDal = blogDal;
-		}
-		 
-		public List<Blog> GetBlogListWithCategory()
-		{
-			return _blogDal.GetListWithCategory();
-		}
-
-		public List<Blog> GetListWithCategoryByWriterbm(int id)
-		{
-			return _blogDal.GetListWithCategoryByWriter(id);
-		}
-
-		public Blog GetById(int id)
-		{
-            throw new NotImplementedException();
+        public BlogManager(IBlogDal blogDal)
+        {
+            _blogDal = blogDal;
         }
-		public List<Blog> GetBlogById(int id)
-		{
-			return _blogDal.GetListAll(x => x.BlogID == id);
-		}
 
-		public List<Blog> GetList()
-		{
-			return _blogDal.GetListAll();
-		}
+        public List<Blog> GetBlogListWithCategory()
+        {
+            return _blogDal.GetListWithCategory();
+        }
 
-		public List<Blog> GetLast3Blog()
-		{
-			return _blogDal.GetListAll().Take(3).ToList();
-		}
+        public List<Blog> GetListWithCategoryByWriterbm(int id)
+        {
+            return _blogDal.GetListWithCategoryByWriter(id);
+        }
+         
+        public List<Blog> GetBlogById(int id)
+        {
+            return _blogDal.GetListAll(x => x.BlogID == id);
+        }
+
+        public List<Blog> GetList()
+        {
+            return _blogDal.GetListAll();
+        }
+
+        public List<Blog> GetLast3Blog()
+        {
+            return _blogDal.GetListAll().Take(3).ToList();
+        }
 
 
-		public List<Blog> GetBlogListByWriter(int id)
-		{
-			return _blogDal.GetListAll(x => x.WriterID == id);
-		}
+        public List<Blog> GetBlogListByWriter(int id)
+        {
+            return _blogDal.GetListAll(x => x.WriterID == id);
+        }
 
         public void TAdd(Blog t)
         {
@@ -68,9 +64,9 @@ namespace BusinessLayer.Concrete
             _blogDal.Update(t);
         }
 
-        public Blog GetByIdd(int id)
+        public Blog TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _blogDal.GetById(id);
         }
     }
 }
