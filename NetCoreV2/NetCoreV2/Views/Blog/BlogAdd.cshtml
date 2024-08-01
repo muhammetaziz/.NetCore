@@ -37,13 +37,15 @@
                 <br />
 
                 @Html.Label("Blog İçeriği")
-                @Html.TextAreaFor(x => x.BlogContent, new { @class = "form-control"  })
+                @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
                 @Html.ValidationMessageFor(x => x.BlogContent)
 
 
                 <br />
-                @Html.Label("Blog Durumu   :")
+                @Html.Label("Blog Durumu:")
+                <br />
                 @Html.CheckBoxFor(x => x.BlogStatus)
+
 
                 <br />
                 <br />

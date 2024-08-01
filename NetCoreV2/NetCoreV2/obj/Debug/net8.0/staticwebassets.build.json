@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oLyMdyviweNYveFXuw4YC8vNW5XISgp9ELiTMukImfc=",
+  "Hash": "Lr0UD7ZHsSMLvR2Uyl9eB9gvdXv/OzeE5LArMK6Dp3s=",
   "Source": "NetCoreV2",
   "BasePath": "_content/NetCoreV2",
   "Mode": "Default",
@@ -3891,6 +3891,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\sprites\\yellow.png"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\UbisoftConnectInstaller.exe",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "writer/assets/images/UbisoftConnectInstaller.exe",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\UbisoftConnectInstaller.exe"
     },
     {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\js\\chart.js",
