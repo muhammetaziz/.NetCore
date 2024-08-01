@@ -12,6 +12,7 @@ namespace NetCoreV2.Controllers
     [AllowAnonymous]
     public class BlogController : Controller
     {
+        CategoryManager cm = new CategoryManager();
         BlogManager bm = new BlogManager(new EFBlogRepository());
         public IActionResult Index()
         {
@@ -38,7 +39,7 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult BlogAdd()
         {
-            CategoryManager cm = new CategoryManager();
+
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
                                                    {
@@ -82,13 +83,24 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult EditBlog(int id)
         {
-            var blogValue=bm.TGetById(id);
+            var blogValue = bm.TGetById(id);
+            List<SelectListItem> categoryValues = (from x in cm.GetList()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
+
+                                                   }).ToList();
+            ViewBag.cv = categoryValues;
             return View(blogValue);
         }
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-
+             
+            p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+            p.WriterID = 1;
+            bm.TUpdate(p);
             return RedirectToAction("BlogListByWriter");
         }
 
