@@ -2,6 +2,7 @@
 @model List<Blog>
 @{
     string status = "";
+    string statu = "";
 }
 <div class="row">
     <div class="col-12 grid-margin">
@@ -24,21 +25,23 @@
                         {
                             if (item.BlogStatus)
                             {
+                                statu = "Aktif";
                                 status = "text-success";
-                            } 
+                            }
                             else
                             {
+                                statu = "Pasif";
                                 status = "text-danger";
                             }
                             <tbody>
                                 <tr>
-                                    <td >  <img src="@item.BlogImage" class="mr-2" alt="image"> </td>
+                                    <td>  <img src="@item.BlogImage" class="mr-2" alt="image"> </td>
                                     <td>@item.BlogTitle</td>
                                     <td>@item.BlogCreateDate.ToShortDateString()</td>
                                     <td>@item.Category.CategoryName</td>
-                                    <td class="@status">@item.BlogStatus</td>
+                                    <td class="@status">@statu</td>
                                     <td><a href="/Blog/BlogReadAll/@item.BlogID" class="btn btn-gradient-info">Detaylar</a></td>
-                                    
+
                                 </tr>
                             </tbody>
                         }

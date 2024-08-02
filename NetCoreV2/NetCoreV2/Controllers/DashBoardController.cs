@@ -1,13 +1,17 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using BusinessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreV2.Controllers
 {
     public class DashBoardController : Controller
     {
+
         [AllowAnonymous]
         public IActionResult Index()
         {
+
             return View();
         }
     }
