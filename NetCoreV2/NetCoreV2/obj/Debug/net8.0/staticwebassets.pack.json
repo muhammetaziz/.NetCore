@@ -633,6 +633,10 @@
       "PackagePath": "staticwebassets\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\WTNO.exe",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\WTNO.exe"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\dashboard\\circle.png",
       "PackagePath": "staticwebassets\\writer\\assets\\images\\dashboard\\circle.png"
     },

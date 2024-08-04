@@ -1,0 +1,37 @@
+﻿@using EntityLayer.Concrete
+@model List<Writer>
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Son Postlar</h4>
+                @foreach (var item in Model)
+                {
+                    <div class="d-flex">
+                        <div class="d-flex align-items-center mr-4 text-muted font-weight-light">
+                            <i class="mdi mdi-account-outline icon-sm mr-2"></i>
+                            <span>@item.WriterName</span>
+                        </div>
+                        <div class="d-flex align-items-center text-muted font-weight-light">
+                            <i class="mdi mdi-clock icon-sm mr-2"></i>
+                            <span>@item.WriterEmail</span>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+
+                        <div class="col-6 pr-1">
+                            <a href="#">
+                                <img src="@item.WriterImage" class="mb-2 mw-100 w-100 rounded" alt="image">
+                            </a>
+                        </div>
+
+
+
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+>

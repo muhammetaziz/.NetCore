@@ -10,9 +10,9 @@ namespace NetCoreV2.Controllers
 
         [AllowAnonymous]
         public IActionResult Index()
-        {
-
+        { 
             return View();
         }
+
     }
 }
