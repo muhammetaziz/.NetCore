@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\concrete\\writermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\writermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\writer\\writereditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\writer\\writereditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\validationrules\\writervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\validationrules\\writervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,19 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WriterValidator.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\ValidationRules\\WriterValidator.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\ValidationRules\\WriterValidator.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\ValidationRules\\WriterValidator.cs",
-              "RelativeToolTip": "BusinessLayer\\ValidationRules\\WriterValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\RegisterController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "NetCoreV2\\Controllers\\RegisterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T00:12:25.999Z",
+              "WhenOpened": "2024-08-05T20:51:51.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Register\\Index.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Register\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T20:51:57.057Z",
               "EditorCaption": ""
             },
             {
@@ -57,22 +74,9 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAaAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T23:25:30.55Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WriterManager.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\WriterManager.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\WriterManager.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\WriterManager.cs",
-              "RelativeToolTip": "BusinessLayer\\Concrete\\WriterManager.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAvwCsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T23:23:33.852Z",
+              "WhenOpened": "2024-08-05T20:41:59.538Z",
               "EditorCaption": ""
             },
             {
@@ -83,7 +87,7 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\WriterController.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\WriterController.cs",
               "RelativeToolTip": "NetCoreV2\\Controllers\\WriterController.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAIwDMAAAASAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-04T23:21:49.117Z",
               "EditorCaption": ""
@@ -98,12 +102,7 @@
               "RelativeToolTip": "NetCoreV2\\Controllers\\DashBoardController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:24:16.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-08-04T20:24:16.473Z"
             },
             {
               "$type": "Document",
@@ -115,8 +114,7 @@
               "RelativeToolTip": "NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T20:24:19.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-04T20:24:19.244Z"
             }
           ]
         }

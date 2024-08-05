@@ -3,7 +3,7 @@ using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc; 
+using Microsoft.AspNetCore.Mvc;
 using FluentValidation.Results;
 
 
@@ -12,7 +12,7 @@ namespace NetCoreV2.Controllers
     [AllowAnonymous]
     public class WriterController : Controller
     {
-        WriterManager wm=new WriterManager(new EFWriterRepository());
+        WriterManager wm = new WriterManager(new EFWriterRepository());
         public IActionResult Index()
         {
             return View();
@@ -52,12 +52,13 @@ namespace NetCoreV2.Controllers
         [HttpPost]
         public IActionResult WriterEditProfile(Writer p)
         {
-            WriterValidator wl= new WriterValidator();
+            WriterValidator wl = new WriterValidator();
             ValidationResult results = wl.Validate(p);
             if (results.IsValid)
             {
+                
                 wm.TUpdate(p);
-                return RedirectToAction("Dashboard", "Index");
+                return RedirectToAction("Index", "Dashboard");
 
             }
             else
@@ -70,6 +71,6 @@ namespace NetCoreV2.Controllers
 
             return View();
         }
-         
+
     }
 }
