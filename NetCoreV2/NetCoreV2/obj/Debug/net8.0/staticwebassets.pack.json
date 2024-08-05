@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\NetCoreV2.bundle.scp.css"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\WriterImageFiles\\2b14d880-f57c-40b7-9642-c38eecbc68a9.png",
+      "PackagePath": "staticwebassets\\WriterImageFiles\\2b14d880-f57c-40b7-9642-c38eecbc68a9.png"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

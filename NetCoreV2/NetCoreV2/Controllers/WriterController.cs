@@ -2,9 +2,11 @@
 using BusinessLayer.ValidationRules;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using FluentValidation.Results;
+using NetCoreV2.Models;
+
 
 
 namespace NetCoreV2.Controllers
@@ -44,11 +46,11 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult WriterEditProfile()
         {
-            var values = wm.TGetById(1);
-            return View(values);
+            var writerValues = wm.TGetById(3);
+            return View(writerValues);
         }
 
-
+        [AllowAnonymous]
         [HttpPost]
         public IActionResult WriterEditProfile(Writer p)
         {
@@ -56,7 +58,6 @@ namespace NetCoreV2.Controllers
             ValidationResult results = wl.Validate(p);
             if (results.IsValid)
             {
-                
                 wm.TUpdate(p);
                 return RedirectToAction("Index", "Dashboard");
 
@@ -71,6 +72,33 @@ namespace NetCoreV2.Controllers
 
             return View();
         }
+        [HttpGet]
+        public IActionResult WriterAdd()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult WriterAdd(AddProfileImage p)
+        {
+            Writer w = new Writer();
+            if (p.WriterImage != null)
+            {
+                var extension = Path.GetExtension(p.WriterImage.FileName);
+                var newimagename = Guid.NewGuid() + extension;
+                var location = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/WriterImageFiles/", newimagename);
+                var stream = new FileStream(location, FileMode.Create);
+                p.WriterImage.CopyTo(stream);
+                w.WriterImage = newimagename;
+            }
+            w.WriterStatus = p.WriterStatus;
+            w.WriterName = p.WriterName;
+            w.WriterEmail = p.WriterEmail;
+            w.WriterPassword = p.WriterPassword;
+            w.WriterAbout = p.WriterAbout;
+
+            wm.TUpdate(w);
+            return RedirectToAction("Index", "Dashboard");
+        }
     }
 }

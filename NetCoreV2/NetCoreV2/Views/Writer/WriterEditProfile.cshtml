@@ -11,24 +11,26 @@
             <div class="card-body">
                 <h4 class="card-title">Yazar Profil Düzenleme</h4>
                 <form class="forms-sample">
-                    <div class="form-group">
 
+                    @Html.HiddenFor(x=>x.WriterID,new{@class="form-control"})
+                    <div class="form-group">
                         <label for="exampleInputName1">Yazar Ad Soyad</label>
                         @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
                         @Html.ValidationMessageFor(x => x.WriterName, "", new { @class = "text-danger" })
-
                     </div>
+
                     <div class="form-group">
                         <label for="exampleInputEmail3">Email</label>
                         @Html.TextBoxFor(x => x.WriterEmail, new { @class = "form-control" })
                         @Html.ValidationMessageFor(x => x.WriterEmail, "", new { @class = "text-danger" })
-
                     </div>
+
                     <div class="form-group">
                         <label for="exampleInputPassword4">Şifre</label>
                         @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
                         @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
                     </div>
+
                     <div class="form-group">
                         <label>Yazar Görsel</label>
                         <input type="file" name="img[]" class="file-upload-default">
@@ -39,13 +41,28 @@
                             </span>
                         </div>
                     </div>
+                     
+                    <div class="form-group">
+                        <label for="exampleTextarea1">Yazar Resim</label>
+                        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+                    </div>
+
                     <div class="form-group">
                         <label for="exampleTextarea1">Yazar Hakkında</label>
                         @Html.TextAreaFor(x => x.WriterAbout, new { @class = "form-control" })
                         @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
                     </div>
+
+                    <div>
+                        <label>Yazar Durumu</label>
+                        @Html.CheckBoxFor(x => x.WriterStatus)
+                    </div>
+                    
+                    <br />
+                    <br />
+
                     <button type="submit" class="btn btn-gradient-primary mr-2">Güncelle</button>
-                    <button class="btn btn-light">İptal</button>
+                    <button type="reset" class="btn btn-light">İptal</button>
                 </form>
             </div>
         </div>
