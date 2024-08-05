@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\viewcomponents\\writer\\writeraboutondashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\viewcomponents\\writer\\writeraboutondashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\writeraboutondashboard\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\writeraboutondashboard\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\dashboardblogimage\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\dashboardblogimage\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\models\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\models\\usercomment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\concrete\\writermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\writermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\abstract\\iwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\iwriterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\writer\\writereditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\writer\\writereditprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\validationrules\\writervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\validationrules\\writervalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,84 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterAboutOnDashboard\\Default.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\WriterAboutOnDashboard\\Default.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterAboutOnDashboard\\Default.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\WriterAboutOnDashboard\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T20:43:47.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\DashboardBlogImage\\Default.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\DashboardBlogImage\\Default.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\DashboardBlogImage\\Default.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\DashboardBlogImage\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABFAAAA",
+              "Title": "WriterValidator.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\ValidationRules\\WriterValidator.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\ValidationRules\\WriterValidator.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\ValidationRules\\WriterValidator.cs",
+              "RelativeToolTip": "BusinessLayer\\ValidationRules\\WriterValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T00:12:25.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WriterEditProfile.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Writer\\WriterEditProfile.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-04T20:40:26.148Z",
+              "WhenOpened": "2024-08-04T23:25:30.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserComment.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Models\\UserComment.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\Models\\UserComment.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Models\\UserComment.cs",
-              "RelativeToolTip": "NetCoreV2\\Models\\UserComment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:38:48.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RegisterController.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\RegisterController.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\RegisterController.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\RegisterController.cs",
-              "RelativeToolTip": "NetCoreV2\\Controllers\\RegisterController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAvwB0AAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:38:30.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "WriterManager.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\WriterManager.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\WriterManager.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\WriterManager.cs",
               "RelativeToolTip": "BusinessLayer\\Concrete\\WriterManager.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAApwBsAAAA+AAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAvwCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:30:11.409Z",
+              "WhenOpened": "2024-08-04T23:23:33.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IWriterService.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Abstract\\IWriterService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IWriterService.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Abstract\\IWriterService.cs",
-              "RelativeToolTip": "BusinessLayer\\Abstract\\IWriterService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
+              "DocumentIndex": 0,
+              "Title": "WriterController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\WriterController.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\WriterController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\WriterController.cs",
+              "RelativeToolTip": "NetCoreV2\\Controllers\\WriterController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwDMAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:29:43.611Z",
+              "WhenOpened": "2024-08-04T23:21:49.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DashBoardController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\DashBoardController.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\DashBoardController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\DashBoardController.cs",
+              "RelativeToolTip": "NetCoreV2\\Controllers\\DashBoardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T20:24:16.473Z",
               "EditorCaption": ""
             },
             {
@@ -132,39 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WriterAboutOnDashboard.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterAboutOnDashboard.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\ViewComponents\\Writer\\WriterAboutOnDashboard.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterAboutOnDashboard.cs",
-              "RelativeToolTip": "NetCoreV2\\ViewComponents\\Writer\\WriterAboutOnDashboard.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:26:35.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DashBoardController.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\DashBoardController.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\DashBoardController.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\DashBoardController.cs",
-              "RelativeToolTip": "NetCoreV2\\Controllers\\DashBoardController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-04T20:24:16.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\DashBoard\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAADoAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-04T20:24:19.244Z",
               "EditorCaption": ""
