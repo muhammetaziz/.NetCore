@@ -1,0 +1,42 @@
+﻿@using EntityLayer.Concrete
+@model List<Natification>
+@{
+    ViewData["Title"] = "AllNatification";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+  
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Bildirimler</h4>
+            <table class="table table-bordered">
+                <thead class="table-dark">
+                    <tr> 
+                        <th width="10px">#</th> 
+                        <th width="10px">Tip</th>
+                        <th width="10px">Detaylar</th>
+                        <th width="10px">Tarih</th>
+                        <th width="10px">Durum</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    @foreach (var item in Model)
+                    {   
+                        <tr>
+                            <td>@item.NotificationID</td>
+                            <td>@item.NotificationType</td>
+                            <td>@item.NotificationDetails</td>
+                            <td>@item.NatificationDate.ToShortDateString()</td>
+                            <td>@item.NatificationStatus</td>
+                             
+                        </tr>
+                    }
+                    
+                </tbody>
+            </table>
+        </div> 
+    </div>
+</div>
+
+   
+
