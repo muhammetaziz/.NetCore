@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\concrete\\messagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\businesslayer\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D293DF3A-3254-4F65-8AF0-DD78B0BE9754}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\abstract\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\writermessagenotification\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\writermessagenotification\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\viewcomponents\\writer\\writermessagenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\viewcomponents\\writer\\writermessagenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\abstract\\imessagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\dataaccesslayer\\entityframework\\efmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D036BF3B-1895-4739-A7D0-D86E46600177}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entityframework\\efmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\components\\writernotification\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\components\\writernotification\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\viewcomponents\\writer\\writermessagenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\viewcomponents\\writer\\writermessagenotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,114 +22,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T23:30:11.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WriterMessageNotification.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
-              "RelativeToolTip": "NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:29:13.759Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EFMessageRepository.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFMessageRepository.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\EntityFramework\\EFMessageRepository.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\EntityFramework\\EFMessageRepository.cs",
-              "RelativeToolTip": "DataAccessLayer\\EntityFramework\\EFMessageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:21:45.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMessageDal.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Abstract\\IMessageDal.cs",
-              "RelativeDocumentMoniker": "DataAccessLayer\\Abstract\\IMessageDal.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\DataAccessLayer\\Abstract\\IMessageDal.cs",
-              "RelativeToolTip": "DataAccessLayer\\Abstract\\IMessageDal.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:20:28.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MessageManager.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\MessageManager.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Concrete\\MessageManager.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Concrete\\MessageManager.cs",
-              "RelativeToolTip": "BusinessLayer\\Concrete\\MessageManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\WriterMessageNotification\\Default.cshtml",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowB0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T23:30:11.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WriterMessageNotification.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
+              "RelativeToolTip": "NetCoreV2\\ViewComponents\\Writer\\WriterMessageNotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:19:23.467Z",
+              "WhenOpened": "2024-08-07T23:29:13.759Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IMessageService.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Abstract\\IMessageService.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Abstract\\IMessageService.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BusinessLayer\\Abstract\\IMessageService.cs",
-              "RelativeToolTip": "BusinessLayer\\Abstract\\IMessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-07T23:18:20.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\DashBoard\\Index.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\DashBoard\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-07T20:56:46.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Shared\\Components\\WriterNotification\\Default.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-07T20:51:03.199Z",
               "EditorCaption": ""
             }
           ]
