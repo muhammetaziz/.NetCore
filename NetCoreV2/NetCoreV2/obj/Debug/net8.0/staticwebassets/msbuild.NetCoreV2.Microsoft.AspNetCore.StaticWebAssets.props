@@ -4624,5 +4624,21 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\WriterImageFiles\2b14d880-f57c-40b7-9642-c38eecbc68a9.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\WriterImageFiles\8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>NetCoreV2</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/NetCoreV2</BasePath>
+      <RelativePath>WriterImageFiles/8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\WriterImageFiles\8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

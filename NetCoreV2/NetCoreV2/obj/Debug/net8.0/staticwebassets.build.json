@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ef61VFbhcJpbe1pHOrGtmLZnz4IGgRJGz6wO6AOq7pk=",
+  "Hash": "n14G8qYWOMe4PBZ3mJX4/P3l2admPScNIonmOloQqOg=",
   "Source": "NetCoreV2",
   "BasePath": "_content/NetCoreV2",
   "Mode": "Default",
@@ -5525,6 +5525,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\WriterImageFiles\\2b14d880-f57c-40b7-9642-c38eecbc68a9.png"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\WriterImageFiles\\8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "WriterImageFiles/8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\WriterImageFiles\\8f2e55aa-8e4c-4d67-80e3-258d6a27b4a1.png"
     }
   ]
 }

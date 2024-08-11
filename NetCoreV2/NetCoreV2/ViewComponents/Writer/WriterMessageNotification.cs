@@ -4,14 +4,13 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace NetCoreV2.ViewComponents.Writer
 {
-    public class WriterMessageNotification:ViewComponent
-    { 
-        MessageManager mm=new MessageManager(new EFMessageRepository());
+    public class WriterMessageNotification : ViewComponent
+    {
+        Message2Manager mm = new Message2Manager(new EFMessage2Repository());
         public IViewComponentResult Invoke()
         {
-            string p;
-            p="m.aziz.aciker@gmail.com";
-            var values = mm.GetInboxListByWriter(p);
+            int id = 1;
+            var values = mm.GetInboxListByWriter(id);
             return View(values);
         }
     }
