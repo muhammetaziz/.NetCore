@@ -9,11 +9,11 @@
             <h1>Mesaj Detay Sayfası</h1>
 
             @Html.Label("Mesaj ID")
-            @Html.TextBoxFor(x => x.MessageID, new { @class = "form-control", @readonly = true })
-            <h1>@Model.SenderUser.WriterName</h1>
+            @Html.TextBoxFor(x => x.MessageID, new { @class = "form-control", @readonly = true }) 
+
             <br />
             @Html.Label("Gönderen")
-            @Html.TextBoxFor(x => x.SenderUser.WriterName, new { @class = "form-control" })
+            <textarea>@ViewBag.sn</textarea>
 
             <br />
 

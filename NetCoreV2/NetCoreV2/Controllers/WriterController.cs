@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -15,8 +16,15 @@ namespace NetCoreV2.Controllers
     public class WriterController : Controller
     {
         WriterManager wm = new WriterManager(new EFWriterRepository());
+
+        [Authorize]
         public IActionResult Index()
         {
+            var usermail = User.Identity.Name;
+            ViewBag.v = usermail;
+            Context c = new Context();
+            var writerName = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterName).FirstOrDefault();
+            ViewBag.v2 = writerName;
             return View();
         }
         public IActionResult WriterProfile()
@@ -42,11 +50,16 @@ namespace NetCoreV2.Controllers
             return PartialView();
         }
 
-        [AllowAnonymous]
+        
         [HttpGet]
         public IActionResult WriterEditProfile()
         {
-            var writerValues = wm.TGetById(3);
+            var usermail = User.Identity.Name; 
+            Context c = new Context();
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+
+
+            var writerValues = wm.TGetById(writerId);
             return View(writerValues);
         }
 

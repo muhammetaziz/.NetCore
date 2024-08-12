@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Concrete;
 using BusinessLayer.ValidationRules;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
@@ -9,9 +10,10 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NetCoreV2.Controllers
 {
-    [AllowAnonymous]
+     
     public class BlogController : Controller
     {
+        Context c = new Context();
         CategoryManager cm = new CategoryManager();
         BlogManager bm = new BlogManager(new EFBlogRepository());
         public IActionResult Index()
@@ -29,7 +31,10 @@ namespace NetCoreV2.Controllers
 
         public IActionResult BlogListByWriter(int id)
         {
-            var values = bm.GetListWithCategoryByWriterbm(1);
+            var usermail = User.Identity.Name;
+             
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+            var values = bm.GetListWithCategoryByWriterbm(writerId);
 
             return View(values);
         }
@@ -60,7 +65,9 @@ namespace NetCoreV2.Controllers
             {
                 p.BlogStatus = true;
                 p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-                p.WriterID = 1;
+                var usermail = User.Identity.Name; 
+                var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+                p.WriterID = writerId;
                 bm.TAdd(p);
                 return RedirectToAction("BlogListByWriter", "Blog");
             }

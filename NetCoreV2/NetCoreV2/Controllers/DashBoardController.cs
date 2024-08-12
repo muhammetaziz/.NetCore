@@ -8,8 +8,6 @@ namespace NetCoreV2.Controllers
 {
     public class DashBoardController : Controller
     {
-
-        [AllowAnonymous]
         public IActionResult Index()
         {
             Context c=new Context();
