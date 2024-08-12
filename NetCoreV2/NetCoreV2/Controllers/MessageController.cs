@@ -16,12 +16,22 @@ namespace NetCoreV2.Controllers
             var values = mm.GetInboxListByWriter(id);
             return View(values);
         }
-
+        public IActionResult Outbox()
+        {
+            int id = 1;
+            var values = mm.GetInboxListByWriter(id);
+            return View(values);
+        }
+        public IActionResult ReadMessage()
+        {
+            int id = 1;
+            var values = mm.GetInboxListByWriter(id);
+            return View(values);
+        }
         public IActionResult MessageDetails(int id)
         {
-            var value = mm.TGetById(id);
-            return View(value);
-
+            var values = mm.TGetById(id);
+            return View(values); 
         }
     }
 }

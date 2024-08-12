@@ -13,18 +13,15 @@
                 Mesajlar
             </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action active">
+                <a href="/Message/Inbox" class="list-group-item list-group-item-action ">
                     Gelen Kutusu
                 </a>
-                <a href="#" class="list-group-item list-group-item-action">
+                <a href="/Message/ReadMessage" class="list-group-item list-group-item-action active">
+                    Okunmuş Mesajlar
+                </a>
+                <a href="/Message/Outbox" class="list-group-item list-group-item-action">
                     Gönderilen
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Yıldızlı
-                </a>
-                <a href="#" class="list-group-item list-group-item-action">
-                    Çöp Kutusu
-                </a>
+                </a>  
             </div>
         </div>
     </div>
@@ -53,16 +50,19 @@
                     <tbody>
                         @foreach (var item in Model)
                         {
+                            if (item.MessageStatus)
+                            {
 
-                            <tr>
-                                <td><input type="checkbox"></td>
-                                <td>@item.SenderUser.WriterName</td>
-                                <td>@item.MessageSubject </td>
-                                <td>@(((DateTime)item.MessageDate).ToString("dd-MMM-yyyy"))</td>
-                                <td>
-                                    <a class="btn btn-outline-primary" href="/Message/MessageDetails/@item.MessageID">  Görüntüle </a>
-                                </td>
-                            </tr>
+                                <tr>
+                                    <td><input type="checkbox"></td>
+                                    <td>@item.SenderUser.WriterName</td>
+                                    <td>@item.MessageSubject </td>
+                                    <td>@(((DateTime)item.MessageDate).ToString("dd-MMM-yyyy"))</td>
+                                    <td>
+                                        <a class="btn btn-outline-primary" href="/Message/MessageDetails/@item.MessageID">  Görüntüle </a>
+                                    </td>
+                                </tr>
+                            }
                         }
                     </tbody>
                 </table>

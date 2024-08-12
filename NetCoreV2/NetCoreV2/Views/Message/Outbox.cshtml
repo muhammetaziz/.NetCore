@@ -1,0 +1,72 @@
+﻿@using EntityLayer.Concrete
+@model List<Message2>
+@{
+    ViewData["Title"] = "Outbox";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="card shadow-sm">
+            <div class="card-header bg-black text-white">
+                Mesajlar
+            </div>
+            <div class="list-group list-group-flush">
+                <a href="/Message/Inbox" class="list-group-item list-group-item-action ">
+                    Gelen Kutusu
+                </a>
+                <a href="/Message/ReadMessage" class="list-group-item list-group-item-action  ">
+                    Okunmuş Mesajlar
+                </a>
+                <a href="/Message/Outbox" class="list-group-item list-group-item-action">
+                    Gönderilen
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-10">
+        <div class="card shadow-sm">
+            <div class="card-header bg-light d-flex justify-content-between">
+                <h5>Gelen Kutusu</h5>
+                <div>
+                    <button class="btn btn-sm btn-primary">Yeni Mesaj</button>
+                </div>
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>
+                                <input type="checkbox">
+                            </th>
+                            <th>Gönderen</th>
+                            <th>Konu</th>
+                            <th>Tarih</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+
+                            <tr>
+                                <td><input type="checkbox"></td>
+                                <td>@item.SenderUser.WriterName</td>
+                                <td>@item.MessageSubject </td>
+                                <td>@(((DateTime)item.MessageDate).ToString("dd-MMM-yyyy"))</td>
+                                <td>
+                                    <a class="btn btn-outline-primary" href="/Message/MessageDetails/@item.MessageID">  Görüntüle </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
