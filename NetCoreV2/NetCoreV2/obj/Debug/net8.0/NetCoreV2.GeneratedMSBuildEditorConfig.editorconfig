@@ -26,12 +26,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/About/SocialMediaAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcU29jaWFsTWVkaWFBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/Admin/AdminNavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Views/Admin/Index.cshtml]
