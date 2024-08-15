@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NetCoreV2.Controllers
 {
-     
+    
     public class BlogController : Controller
     {
         Context c = new Context();
