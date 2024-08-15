@@ -1,5 +1,8 @@
 ﻿@using EntityLayer.Concrete
 @model List<Category>
+ 
+
+ 
 
 @{
     ViewData["Title"] = "Index";
@@ -18,47 +21,49 @@
             <table class="table table-hover">
                 <thead>
                     <tr>
-                        <th width="%10">#</th>
-                        <th width ="%10">Kategori Adı</th>
+                        <th width="10px">#</th>
+                        <th  >Kategori Adı</th>
                         <th>Kategori Açıklama</th>
-                        <th width="%10">Durum</th>
-                        <th width="%10">Aktif/Pasif</th>
-                        <th width="%10"></th>
+                        <th width="10px">Durum</th>
+                        <th width="10px">Aktif/Pasif</th>
+                        <th width="10px">Düzenle</th>
                     </tr>
                 </thead>
                 <tbody>
                     @foreach (var item in Model)
                     {
                         {
-                            
-                        if (item.CategoryStatus)
-                        {
-                            stat = "Aktif";
-                            status = "btn btn-w-m btn-primary";
-                            statusText = "Pasif Yap";
-                            statusBadge = "badge badge-success";
+
+                            if (item.CategoryStatus)
+                            {
+                                stat = "Aktif";
+                                status = "btn btn-w-m btn-primary";
+                                statusText = "Pasif Yap";
+                                statusBadge = "badge badge-success";
+                            }
+                            else
+                            {
+                                stat = "Pasif";
+                                status = "btn btn-w-m btn-danger";
+                                statusText = "Aktif Yap";
+                                statusBadge = "badge badge-danger";
+                            }
                         }
-                        else
-                        {
-                            stat = "Pasif";
-                            status = "btn btn-w-m btn-danger";
-                            statusText = "Aktif Yap";
-                            statusBadge = "badge badge-danger";
-                        }
-                        }
-                        <tr>
+                        <tr >
                             <td>@item.CategoryID</td>
                             <td>@item.CategoryName</td>
                             <td>@item.CategoryDescription</td>
                             <td><label class="@statusBadge">@stat</label></td>
                             <td><a href="#" class="@status">@statusText</a></td>
                             <td><a href="#" class="btn btn-w-m btn-warning">Düzenle</a></td>
-                              
+
                         </tr>
                     }
                 </tbody>
-            </table>
+            </table> 
+            <a href="/Admin/Category/CategoryAdd" class="btn btn-w-m btn-primary">Yeni Kategori</a>
         </div>
     </div>
 </div>
 
+                                

@@ -262,3 +262,6 @@ D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.d
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\obj\Debug\net8.0\NetCoreV2.MvcApplicationPartsAssemblyInfo.cs
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.PagedList.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.Web.PagedList.dll
