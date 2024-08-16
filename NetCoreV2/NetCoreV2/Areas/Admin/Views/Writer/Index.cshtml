@@ -21,7 +21,8 @@
                         <th>Yazar Hakkında</th>
                         <th width="10px">E-Mail</th>
                         <th width="10px">Durum</th>
-                        <th width="10px">Düzenle</th>
+                        <th width="10px"></th>
+                        <th width="10px"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -46,8 +47,8 @@
                             <td>@item.WriterAbout</td>
                             <td>@item.WriterEmail</td>
                             <td><label class="@statusBadge">@stat</label></td>
+                            <td><a href="/Admin/Writer/WriterChangeStatus/@item.WriterID/" id="EditBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');" class="btn btn-w-m btn-primary ">Aktif Pasif</a></td>
                             <td><a href="/Admin/Writer/WriterEdit/@item.WriterID/" id="EditBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');" class="btn btn-w-m btn-warning">Düzenle</a></td>
-                            <td><a href="/Admin/Writer/WriterChangeStatus/@item.WriterID/" id="EditBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');" class="btn btn-w-m btn-warning">Aktif Pasif</a></td>
                              
                         </tr>
                     }

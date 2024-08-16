@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NetCoreV2.Controllers
 {
-    
+
     public class BlogController : Controller
     {
         Context c = new Context();
@@ -32,7 +32,7 @@ namespace NetCoreV2.Controllers
         public IActionResult BlogListByWriter(int id)
         {
             var usermail = User.Identity.Name;
-             
+
             var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
             var values = bm.GetListWithCategoryByWriterbm(writerId);
 
@@ -65,7 +65,7 @@ namespace NetCoreV2.Controllers
             {
                 p.BlogStatus = true;
                 p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-                var usermail = User.Identity.Name; 
+                var usermail = User.Identity.Name;
                 var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
                 p.WriterID = writerId;
                 bm.TAdd(p);
@@ -104,7 +104,7 @@ namespace NetCoreV2.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-             
+
             p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
             p.WriterID = 1;
             bm.TUpdate(p);

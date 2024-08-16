@@ -14,6 +14,9 @@
 
                     @foreach (var item in Model)
                     {
+                        if (item.BlogStatus)
+                        {
+                            
 
                         <div class="col-lg-4 card" style="height:650px">
                             <a href="/Blog/BlogReadAll/@item.BlogID/">
@@ -46,6 +49,7 @@
                             </div>
                             
                         </div>
+                        }
 
                     }
                 </div>
