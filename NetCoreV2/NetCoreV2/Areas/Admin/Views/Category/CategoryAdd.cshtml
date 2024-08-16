@@ -2,11 +2,14 @@
 
 @{
     ViewData["Title"] = "CategoryAdd";
-    Layout = "~/Views/Shared/AdminLayout.cshtml";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
 }
 
-@using (Html.BeginForm("CategoryAdd", "Category", FormMethod.Post))
-{
+@* @using (Html.BeginRouteForm(routeName:"Admin",routeValues:new{action="CategoryAdd",controller="Category",area="Admin"},method:FormMethod.Post))
+ *@
+ @using (Html.BeginForm("CategoryAdd", "Category", new { area = "Admin" }, FormMethod.Post))
+
+ {
     <div class="form-group">
         @Html.Label("Kategori Adı")
         @Html.TextBoxFor(x => x.CategoryName, new { @class = "form-control", placeholder = "Kategori adı girin" })

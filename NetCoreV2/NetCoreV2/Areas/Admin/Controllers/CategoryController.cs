@@ -20,8 +20,8 @@ namespace NetCoreV2.Areas.Admin.Controllers
 
         [HttpGet]
         public IActionResult CategoryAdd()
-        { 
-             
+        {
+
             return View();
         }
 
@@ -34,7 +34,7 @@ namespace NetCoreV2.Areas.Admin.Controllers
             if (results.IsValid)
             {
                 cm.TAdd(p);
-                return RedirectToAction("Index", "Category");
+                return RedirectToAction("Index", "Category", new { area = "Admin" });
             }
             else
             {
@@ -45,6 +45,36 @@ namespace NetCoreV2.Areas.Admin.Controllers
             }
             return View();
         }
+        // public IActionResult CategoryDelete(int id)
+        //{
+             
+        //    var categoryValue = cm.TGetById(id);  
+        //    cm.TDelete(categoryValue);
+        //    return RedirectToAction("Index", "Category", new { area = "Admin" });
 
+        //}
+
+
+        [HttpGet]
+        public IActionResult CategoryEdit(int id)
+        {
+            var blogValue = cm.TGetById(id);
+            List<SelectListItem> categoryValues = (from x in cm.GetList()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
+
+                                                   }).ToList();
+            ViewBag.cv = categoryValues;
+            return View(blogValue);
+        }
+        [HttpPost]
+        public IActionResult CategoryEdit(Category p)
+        {          
+            
+            cm.TUpdate(p);
+            return RedirectToAction("Index", "Category", new { area = "Admin" });
+        }
     }
 }
