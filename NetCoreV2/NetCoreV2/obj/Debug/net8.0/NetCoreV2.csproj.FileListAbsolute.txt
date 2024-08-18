@@ -265,3 +265,8 @@ D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\obj\Debug\net8.0\NetCoreV2.MvcAppli
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.PagedList.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\X.Web.PagedList.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\ClosedXML.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\ClosedXML.Extensions.Mvc.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\ExcelNumberFormat.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\System.IO.Packaging.dll
