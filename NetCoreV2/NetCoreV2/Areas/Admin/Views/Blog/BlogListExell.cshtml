@@ -5,11 +5,11 @@
 }
 
 <h1>BlogListExell</h1>
-<button class="btn btn-gradient-primary" onclick="DownloadExcelBlogList">Exel Listesini İndir</button>
+<button class="btn btn-primary" onclick="DownloadExcelBlogList">Exel Listesini İndir</button>
 
-
+<a href="/Admin/Blog/ExportStaticExelBlogList" class="btn btn-w-m btn-primary"> exelindir </a>
 <script>
     function DownloadExcelBlogList() {
-        window.open("/Admin/Blog/ExportStaticExelBlogList/");
+        window.open("/Admin/Blog/ExportStaticExelBlogList");
     }
 </script>

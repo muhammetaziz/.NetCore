@@ -30,6 +30,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xCbG9nTGlzdEV4ZWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Blog/BlogTitleListExcel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQmxvZ1xCbG9nVGl0bGVMaXN0RXhjZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Category/CategoryAdd.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ2F0ZWdvcnlBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,6 +56,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEFkbWluTGF5b3V0QXJlYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Shared/Components/Statistic1/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcU3RhdGlzdGljMVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Widget/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcV2lkZ2V0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/Writer/Index.cshtml]
