@@ -19,7 +19,7 @@
                     <i class="fa fa-cloud fa-5x"></i>
                 </div>
                 <div class="col-8 text-right">
-                    <span> Today degrees </span>
+                    <span> Günün Sıcaklığı </span>
                     <h2 class="font-bold">26'C</h2>
                 </div>
             </div>
@@ -56,12 +56,12 @@
     <div class="col-lg-6">
         <div class="widget navy-bg no-padding">
             <div class="p-m">
-                <h1 class="m-xs">$ 1,540</h1>
+                <h1 class="m-xs">Dashboard</h1>
 
                 <h3 class="font-bold no-margins">
-                    Annual income
+                    Asp.Net Core MVC
                 </h3>
-                <small>Income form project Alpha.</small>
+                <small>Projemiz bu panelde admin işlemlerinde area yapısı kullanmaktadır.Sidebar üzerinden yardım menüsüne ulaşabilirsiniz.</small>
             </div>
             <div class="flot-chart">
                 <div class="flot-chart-content" id="flot-chart1"></div>
@@ -70,13 +70,12 @@
     </div>
     <div class="col-lg-3">
         <div class="widget lazur-bg no-padding">
-            <div class="p-m">
-                <h1 class="m-xs">$ 210,660</h1>
-
-                <h3 class="font-bold no-margins">
-                    Monthly income
-                </h3>
-                <small>Income form project Beta.</small>
+            <div class="p-m"> 
+                <h1 class="m-xs">Son eklenen blog</h1>
+                <h2 class="font-bold no-margins">
+                    @ViewBag.LastBlog
+                </h2>
+                <small><a href="/Admin/Blog/Index/">Bloglar</a></small>
             </div>
             <div class="flot-chart">
                 <div class="flot-chart-content" id="flot-chart2"></div>
@@ -86,12 +85,12 @@
     <div class="col-lg-3">
         <div class="widget yellw-bg no-padding">
             <div class="p-m">
-                <h1 class="m-xs">$ 50,992</h1>
+                <h1 class="m-xs">$ 83,672</h1>
 
                 <h3 class="font-bold no-margins">
-                    Half-year revenue margin
+                    Toplam Site Kazancı
                 </h3>
-                <small>Sales marketing.</small>
+                 
             </div>
             <div class="flot-chart">
                 <div class="flot-chart-content" id="flot-chart3"></div>
@@ -107,7 +106,7 @@
                     <i class="fa fa-user fa-3x"></i>
                 </div>
                 <div class="col-9 text-right">
-                    <h2 class="font-bold">217</h2>
+                    <h2 class="font-bold">@ViewBag.ToplamYazarSayısı</h2>
                 </div>
             </div>
         </div>
