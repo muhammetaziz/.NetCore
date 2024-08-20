@@ -1,0 +1,48 @@
+﻿ @{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+ 
+<h1>Chart controller ındex page</h1>
+
+
+<div class="card-body">
+    <div class="card-header">
+        <div class="b-grid-top">
+            <h2>Burası Chart Alanıdır</h2>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js">
+
+</script>
+<script type="text/javascript">
+
+    google.charts.load('current', { 'packages': ['corecharts'] });
+    google.charts.setOnLoadCallback(DrawonLoad);
+    function DrawonLoad() {
+        $(function () {
+            $.ajax({
+                type:'Get',
+                url:'/Admin/Chart/CategoryChart/',
+                success: function (chartsdata) {
+                    var Data = chartsdata.jsonlist;
+                    var data = new google.visualization.DataTable();
+                    data.addColumn('string', 'CategoryNamee');
+                    data.addColumn('number','CategoryCount')
+                    
+                    for (var i = 0; i < Data.length; i++) {
+                        data.addRow([Data[i].CategoryNamee, Data[i].CategoryCount]);
+                    }
+                    var chart = new google.visualization.PieChart(document.getElementById('chartdiv'));
+                    chart.draw
+
+                }
+            })
+        })
+    }
+</script>
+ 
