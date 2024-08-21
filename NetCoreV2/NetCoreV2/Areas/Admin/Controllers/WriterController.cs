@@ -3,6 +3,8 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using NetCoreV2.Areas.Admin.Models;
+using Newtonsoft.Json;
 
 namespace NetCoreV2.Areas.Admin.Controllers
 {
@@ -43,6 +45,23 @@ namespace NetCoreV2.Areas.Admin.Controllers
 
             return RedirectToAction("Index");
         }
+        public IActionResult Index2()
+        {
+            return View();
+        }
+        public IActionResult WriterList()
+        {
+            var jsonWriters=JsonConvert.SerializeObject(writers);
+            return Json(jsonWriters);
+        }
+
+
+        public static List<WriterClass> writers = new List<WriterClass>()
+        {
+            new WriterClass() { Id = 1, Name = "test", },
+            new WriterClass { Id = 2, Name = "test2", },
+            new WriterClass { Id = 3,Name="test3"}
+        };
 
     }
 }

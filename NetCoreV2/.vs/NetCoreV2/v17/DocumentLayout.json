@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\controllers\\writercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\writer\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\writer\\index2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\shared\\adminlayoutarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\shared\\adminlayoutarea.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\models\\writerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\models\\writerclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\chart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\chart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -34,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Widget\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Widget\\Index.cshtml",
@@ -47,51 +63,106 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-19T22:36:00.373Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminLayoutArea.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Shared\\AdminLayoutArea.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Shared\\AdminLayoutArea.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Shared\\AdminLayoutArea.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Shared\\AdminLayoutArea.cshtml",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAANAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T13:26:38.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index2.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Writer\\Index2.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Writer\\Index2.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Writer\\Index2.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Writer\\Index2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T13:19:13.018Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WriterController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\WriterController.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Controllers\\WriterController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\WriterController.cs",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\WriterController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:18:21.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WriterClass.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Models\\WriterClass.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Models\\WriterClass.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Models\\WriterClass.cs",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Models\\WriterClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T13:17:46.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Chart\\Index.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Chart\\Index.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Chart\\Index.cshtml",
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Chart\\Index.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAeAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-20T18:11:41.25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ChartController.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\ChartController.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Controllers\\ChartController.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\ChartController.cs",
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\ChartController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T18:08:36.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "CategoryClass.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Models\\CategoryClass.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Models\\CategoryClass.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Models\\CategoryClass.cs",
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Models\\CategoryClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-20T18:07:04.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Statistic1.cs",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\ViewComponents\\Statistic\\Statistic1.cs",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\ViewComponents\\Statistic\\Statistic1.cs",
@@ -99,12 +170,11 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\ViewComponents\\Statistic\\Statistic1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T17:34:03.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-20T17:34:03.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Default.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Shared\\Components\\Statistic1\\Default.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Shared\\Components\\Statistic1\\Default.cshtml",
@@ -112,12 +182,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Shared\\Components\\Statistic1\\Default.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T17:34:10.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-08-20T17:34:10.119Z"
             }
           ]
         }

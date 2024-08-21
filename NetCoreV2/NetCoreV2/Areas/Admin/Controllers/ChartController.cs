@@ -16,9 +16,9 @@ namespace NetCoreV2.Areas.Admin.Controllers
         {
             List<CategoryClass> list = new List<CategoryClass>();
 
-            list.Add(new CategoryClass { CategoryNamee = "Teknoloji", CategoryCount = 10 });
-            list.Add(new CategoryClass { CategoryNamee = "Yazılım", CategoryCount = 21 });
-            list.Add(new CategoryClass { CategoryNamee = "Spor", CategoryCount = 4 });
+            list.Add(new CategoryClass { categoryname = "Teknoloji", categorycount = 10 });
+            list.Add(new CategoryClass { categoryname = "Yazılım", categorycount = 21 });
+            list.Add(new CategoryClass { categoryname = "Spor", categorycount = 4 });
 
             return Json(new { jsonList = list });
         }
