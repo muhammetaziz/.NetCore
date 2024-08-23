@@ -1,5 +1,7 @@
-﻿using ClosedXML.Excel;
+﻿using BusinessLayer.Concrete;
+using ClosedXML.Excel;
 using DataAccessLayer.Concrete;
+using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using NetCoreV2.Areas.Admin.Models;
@@ -9,6 +11,7 @@ namespace NetCoreV2.Areas.Admin.Controllers
     [Area("Admin")]
     public class BlogController : Controller
     {
+        BlogManager bm=new BlogManager(new EFBlogRepository());
 
         public IActionResult ExportStaticExelBlogList()
         {
@@ -104,6 +107,13 @@ namespace NetCoreV2.Areas.Admin.Controllers
         public IActionResult BlogTitleListExcel()
         {
             return View();
+        }
+
+        public IActionResult BlogListForAdmin()
+        {
+            var value=bm.GetBlogListWithCategory();
+            
+            return View(value);
         }
     }
 }
