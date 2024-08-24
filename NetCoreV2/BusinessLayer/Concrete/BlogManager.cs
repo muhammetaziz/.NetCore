@@ -20,6 +20,7 @@ namespace BusinessLayer.Concrete
 
         public List<Blog> GetBlogListWithCategory()
         {
+            
             return _blogDal.GetListWithCategory();
         }
 

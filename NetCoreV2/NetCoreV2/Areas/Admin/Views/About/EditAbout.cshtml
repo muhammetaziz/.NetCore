@@ -1,0 +1,41 @@
+﻿@model EntityLayer.Concrete.About
+
+@{
+    ViewData["Title"] = "EditAbout";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+@using (Html.BeginForm("EditAbout", "About", new { area = "Admin" }, FormMethod.Post))
+
+{
+    @Html.TextBoxFor(x => x.AboutID, new { @class = "form-control", placeholder = "Id adı girin", @hidden = true })
+
+    <div class="form-group">
+        @Html.Label("1. Hakkımızda kısmı")
+        @Html.TextAreaFor(x => x.AboutDetails1, new { @class = "form-control", placeholder = "İçerik Giriniz" })
+        @Html.ValidationMessageFor(x => x.AboutDetails1, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("1. Resim")
+        @Html.TextBoxFor(x => x.AboutImage1, new { @class = "form-control", rows = 3, placeholder = "Resim Yükleyiniz" })
+        @Html.ValidationMessageFor(x => x.AboutImage1, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group">
+        @Html.Label("2. Hakkımızda kısmı")
+        @Html.TextAreaFor(x => x.AboutDetails2, new { @class = "form-control", placeholder = "İçerik Giriniz" })
+        @Html.ValidationMessageFor(x => x.AboutDetails2, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("2. Resim")
+        @Html.TextBoxFor(x => x.AboutImage2, new { @class = "form-control", rows = 3, placeholder = "Resim Yükleyiniz" })
+        @Html.ValidationMessageFor(x => x.AboutImage2, "", new { @class = "text-danger" })
+    </div>
+     
+    <div class="text-center">
+        <button class="btn btn-primary btn-block" id="DeleteBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');">Güncelle</button>
+    </div>
+     
+
+}

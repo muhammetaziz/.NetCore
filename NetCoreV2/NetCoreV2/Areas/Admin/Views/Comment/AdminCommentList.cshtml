@@ -1,0 +1,57 @@
+﻿@using EntityLayer.Concrete
+@model List<Comment>
+@{
+    ViewData["Title"] = "AdminCommentList";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+@{
+    string statusBadge = "";
+    string stat = "";
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Aboneler</h3>
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th width="10px">#</th>
+                        <th>Yorum Sahibi</th>
+                        <th>Konu</th>
+                        <th>İçerik</th>
+                        <th>Tarih</th>
+                        <th width="10px">Durum</th>
+                        <th width="10px">Düzenle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        { 
+                            if (item.CommentStatus)
+                            {
+                                stat = "Aktif";
+                                statusBadge = "badge badge-primary";
+                            }
+                            else
+                            {
+                                stat = "Pasif";
+                                statusBadge = "badge badge-danger";
+                            }
+                        }
+                        <tr>
+                            <td>@item.CommentID</td>
+                            <td>@item.CommentUserName</td>
+                            <td>@item.CommentTitle</td>
+                            <td>@item.CommentContent</td>
+                            <td>@item.CommentDate.ToShortDateString()</td>
+                            <td><label class="@statusBadge">@stat</label></td>
+                            <td><a href="/Admin/Comment/CommentChangeStatus/@item.CommentID/" id="DeleteBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');" class="btn btn-w-m btn-warning">Aktif/Pasif</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
