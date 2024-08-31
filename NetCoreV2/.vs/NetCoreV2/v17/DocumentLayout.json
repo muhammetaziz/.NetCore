@@ -82,8 +82,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -92,7 +96,7 @@
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Comment\\AdminCommentList.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Comment\\AdminCommentList.cshtml",
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Comment\\AdminCommentList.cshtml",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAB0AAAAVAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABsAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-24T00:22:13.487Z",
               "EditorCaption": ""
@@ -107,8 +111,7 @@
               "RelativeToolTip": "BusinessLayer\\Concrete\\CommentManager.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwC8AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:20:03.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T00:20:03.208Z"
             },
             {
               "$type": "Document",
@@ -120,8 +123,7 @@
               "RelativeToolTip": "BusinessLayer\\Abstract\\ICommentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:19:54.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T00:19:54.833Z"
             },
             {
               "$type": "Document",
@@ -133,8 +135,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\CommentController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:18:22.429Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T00:18:22.429Z"
             },
             {
               "$type": "Document",
@@ -146,8 +147,7 @@
               "RelativeToolTip": "NetCoreV2\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:12:19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T00:12:19Z"
             },
             {
               "$type": "Document",
@@ -159,8 +159,7 @@
               "RelativeToolTip": "NetCoreV2\\Controllers\\RegisterController.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAQwCAAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:06:20.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T00:06:20.558Z"
             },
             {
               "$type": "Document",
@@ -172,8 +171,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\NewsLetter\\NewsLetterList.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAADMAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T23:24:08.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:24:08.783Z"
             },
             {
               "$type": "Document",
@@ -185,8 +183,7 @@
               "RelativeToolTip": "BusinessLayer\\Concrete\\NewsLetterManager.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAowC8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T23:19:41.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:19:41.411Z"
             },
             {
               "$type": "Document",
@@ -198,8 +195,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\NewsLetter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T23:21:51.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:21:51.483Z"
             },
             {
               "$type": "Document",
@@ -211,8 +207,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAABAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T23:26:16.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:26:16.974Z"
             },
             {
               "$type": "Document",
@@ -224,8 +219,7 @@
               "RelativeToolTip": "NetCoreV2\\Views\\Admin\\AdminNavbarPartial.cshtml",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAE0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T23:35:27.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:35:27.329Z"
             },
             {
               "$type": "Document",
@@ -237,8 +231,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T22:24:14.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T22:24:14.463Z"
             },
             {
               "$type": "Document",
@@ -250,8 +243,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\About\\AdminAboutIndex.cshtml",
               "ViewState": "AQIAAAQAAAAAAAAAAAAowBwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T22:09:39.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T22:09:39.604Z"
             },
             {
               "$type": "Document",
@@ -263,8 +255,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\About\\EditAbout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T21:59:42.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T21:59:42.46Z"
             },
             {
               "$type": "Document",
@@ -276,8 +267,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Contact\\Index.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAAAwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T21:20:38.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T21:20:38.181Z"
             },
             {
               "$type": "Document",
@@ -289,8 +279,7 @@
               "RelativeToolTip": "BusinessLayer\\Abstract\\INewsLetterService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T23:19:36.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T23:19:36.272Z"
             },
             {
               "$type": "Document",
@@ -302,8 +291,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\AboutController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T21:21:27.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-23T21:21:27.562Z"
             },
             {
               "$type": "Document",
@@ -315,12 +303,7 @@
               "RelativeToolTip": "BusinessLayer\\Concrete\\AboutManager.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAIAwwBYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T21:22:19.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-08-23T21:22:19.003Z"
             }
           ]
         }
