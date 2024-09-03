@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,8 @@ namespace NetCoreV2.Areas.Admin.Controllers
         CommentManager cm=new CommentManager(new EFCommentRepository());
         public IActionResult AdminCommentList()
         {
+            Context context = new Context();
+            //context.Blogs.Where(x=>x.BlogID==c)
             var value = cm.GetList();
             return View(value);
         }
