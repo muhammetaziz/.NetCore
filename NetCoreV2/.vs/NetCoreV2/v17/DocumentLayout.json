@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\blogapidemo\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|solutionrelative:blogapidemo\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\blogapidemo\\dataaccesslayer\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|solutionrelative:blogapidemo\\dataaccesslayer\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\blogapidemo\\dataaccesslayer\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|solutionrelative:blogapidemo\\dataaccesslayer\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\blogapidemo\\blogapidemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C4DEC6E7-F90A-4293-BE82-60182B291013}|BlogApiDemo\\BlogApiDemo.csproj|solutionrelative:blogapidemo\\blogapidemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "BlogApiDemo\\Controllers\\DefaultController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "BlogApiDemo\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:37:59.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\DataAccessLayer\\Employee.cs",
+              "RelativeDocumentMoniker": "BlogApiDemo\\DataAccessLayer\\Employee.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\DataAccessLayer\\Employee.cs",
+              "RelativeToolTip": "BlogApiDemo\\DataAccessLayer\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:27:46.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Context.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\DataAccessLayer\\Context.cs",
+              "RelativeDocumentMoniker": "BlogApiDemo\\DataAccessLayer\\Context.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\DataAccessLayer\\Context.cs",
+              "RelativeToolTip": "BlogApiDemo\\DataAccessLayer\\Context.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:27:31.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogApiDemo",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\BlogApiDemo.csproj",
+              "RelativeDocumentMoniker": "BlogApiDemo\\BlogApiDemo.csproj",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\BlogApiDemo.csproj",
+              "RelativeToolTip": "BlogApiDemo\\BlogApiDemo.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-04T21:26:01.459Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
