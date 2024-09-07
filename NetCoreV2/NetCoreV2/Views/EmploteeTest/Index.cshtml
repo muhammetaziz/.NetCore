@@ -1,0 +1,26 @@
+﻿@using NetCoreV2.Controllers
+@model List<Class1>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>#</th>
+        <th>Adı Soyadı</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ID</td>
+            <td>@item.Name</td>
+            <td><a href="/EmploteeTest/DeleteEmployee/@item.ID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/EmploteeTest/EditEmployee/@item.ID" class="btn btn-success">Düzenle</a></td>
+
+        </tr>
+    }
+</table>
+<a href="/EmploteeTest/AddEmployee/" class="btn btn-primary">Yeni Veri Girişi</a>

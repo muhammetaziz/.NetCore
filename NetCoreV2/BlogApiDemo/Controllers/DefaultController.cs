@@ -12,7 +12,7 @@ namespace BlogApiDemo.Controllers
         public IActionResult EmployeeList()
         {
             using var c = new Context();
-            var values = c.employees.ToList();
+            var values = c.Employees.ToList();
             return Ok(values);
         }
         [HttpPost]
@@ -28,7 +28,7 @@ namespace BlogApiDemo.Controllers
         public IActionResult EmployeeGet(int id)
         {
             using var c=new Context();
-            var employee=c.employees.Find(id);
+            var employee=c.Employees.Find(id);
             if (employee == null)
             {
                 return NotFound();
@@ -40,7 +40,7 @@ namespace BlogApiDemo.Controllers
         public IActionResult EmployeeDelete(int id)
         {
             using var c = new Context();
-            var employee=c.employees.Find(id);
+            var employee=c.Employees.Find(id);
             if (employee == null)
             {
                 return NotFound();

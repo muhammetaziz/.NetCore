@@ -270,3 +270,12 @@ D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\ClosedXML.Extensio
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\ExcelNumberFormat.dll
 D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\BlogApiDemo.deps.json
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\BlogApiDemo.runtimeconfig.json
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\BlogApiDemo.exe
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\BlogApiDemo.dll
+D:\AzizProjeler\.NetCore\NetCoreV2\NetCoreV2\bin\Debug\net8.0\BlogApiDemo.pdb

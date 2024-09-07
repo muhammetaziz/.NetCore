@@ -1,0 +1,22 @@
+﻿@model NetCoreV2.Controllers.Class1
+@{
+    ViewData["Title"] = "EditEmployee";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+<h1>EditEmployee with api</h1>
+
+<form method="post">
+
+     
+    @Html.HiddenFor(x => x.ID, new { @class = "form-control" })
+
+    <label>Adı Soyadı</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-primary">Düzenle</button>
+</form>
+
+
+

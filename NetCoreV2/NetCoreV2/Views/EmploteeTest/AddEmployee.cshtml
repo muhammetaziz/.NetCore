@@ -1,0 +1,16 @@
+﻿@using NetCoreV2.Controllers
+@model Class1
+@{
+    ViewData["Title"] = "AddEmployee";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+
+<form method="post">
+
+    <label>Çalışan Ad Soyad</label>
+    <input type="text" asp-for="@Model.Name" />
+
+    <br />
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
