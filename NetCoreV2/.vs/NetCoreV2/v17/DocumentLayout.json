@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "BlogApiDemo\\Controllers\\DefaultController.cs",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\Controllers\\DefaultController.cs",
               "RelativeToolTip": "BlogApiDemo\\Controllers\\DefaultController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAIwDcAAAARAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T21:37:59.111Z",
               "EditorCaption": ""
@@ -51,8 +55,7 @@
               "RelativeToolTip": "BlogApiDemo\\DataAccessLayer\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T21:27:46.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T21:27:46.439Z"
             },
             {
               "$type": "Document",
@@ -64,25 +67,19 @@
               "RelativeToolTip": "BlogApiDemo\\DataAccessLayer\\Context.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T21:27:31.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-04T21:27:31.826Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "BlogApiDemo",
+              "Title": "BlogApiDemo.csproj",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\BlogApiDemo.csproj",
               "RelativeDocumentMoniker": "BlogApiDemo\\BlogApiDemo.csproj",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\BlogApiDemo\\BlogApiDemo.csproj",
               "RelativeToolTip": "BlogApiDemo\\BlogApiDemo.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-04T21:26:01.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-09-04T21:26:01.459Z"
             }
           ]
         }
