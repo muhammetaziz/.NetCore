@@ -1,3 +1,5 @@
+using DataAccessLayer.Concrete;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -9,6 +11,12 @@ ConfigureServices(builder.Services);
 //Authorize iþlemleri
 void ConfigureServices(IServiceCollection services)
 {
+    services.AddDbContext<Context>();
+    services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<Context>();
+
+
+
+
     services.AddControllersWithViews();
 
     services.AddSession();
