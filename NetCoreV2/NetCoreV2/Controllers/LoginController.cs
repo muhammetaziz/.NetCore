@@ -2,14 +2,23 @@
 using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using NetCoreV2.Models;
 using System.Security.Claims;
 
 namespace NetCoreV2.Controllers
 {
+    [AllowAnonymous]
     public class LoginController : Controller
     {
-        [AllowAnonymous]
+        private readonly SignInManager<AppUser> _signInManager;
+
+        public LoginController(SignInManager<AppUser> signInManager)
+        {
+            _signInManager = signInManager;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -17,41 +26,26 @@ namespace NetCoreV2.Controllers
 
 
         [HttpPost]
-        [AllowAnonymous]
-        public async Task<IActionResult> Index(Writer p)
+        public async Task<IActionResult> Index(UserSignInModel p)
         {
-            Context c = new Context();
-            var datavalue = c.Writers.FirstOrDefault(x => x.WriterEmail == p.WriterEmail && x.WriterPassword == p.WriterPassword);
-            if (datavalue != null)
+            if (ModelState.IsValid)
             {
-                var claims = new List<Claim>
+
+                var result = await _signInManager.PasswordSignInAsync(p.username, p.password, false, true);
+                if (result.Succeeded)
                 {
-                    new Claim(ClaimTypes.Name,p.WriterEmail)
-                };
-                var useridentity = new ClaimsIdentity(claims, "a");
-                ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
-                await HttpContext.SignInAsync(principal);
-
-
-                return RedirectToAction("Index", "Dashboard");
+                    return RedirectToAction("Index", "DashBoard");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Login");
+                }
             }
-            else
-            {
-                return View();
-            }
-
+            return View();
         }
+
+
+
+
     }
 }
-//Context c = new Context();
-
-//var dataValue = c.Writers.FirstOrDefault(x => x.WriterEmail == p.WriterEmail && x.WriterPassword == p.WriterPassword);
-//if (dataValue != null)
-//{
-//    HttpContext.Session.SetString("UserName", p.WriterEmail);
-//    return RedirectToAction("Index", "Writer");
-//}
-//else
-//{
-//    return View();
-//}

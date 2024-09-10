@@ -34,6 +34,7 @@ namespace NetCoreV2.Controllers
                     Email = p.Mail,
                     UserName = p.UserName,
                     NameSurname = p.nameSurname,
+                    ImageUrl="ımageUrl",
                 };
                 var result=await _userManager.CreateAsync(user,p.Password);
                 if (result.Succeeded)

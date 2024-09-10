@@ -1,34 +1,94 @@
-﻿
+﻿@model UserSignInModel
 @{
-    ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/UserLayout.cshtml";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html>
 
-<section class="main-content-w3layouts-agileits">
-	<div class="container">
-		<h3  class="tittle">Giriş Yap</h3>
-		<div class="row inner-sec">
-			<div class="login p-5 bg-light mx-auto mw-100">
-				<form method="post">
-					<div class="form-group">
-						<label for="exampleInputEmail1 mb-2">E-Mail</label>
-						<input name="WriterEmail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="" required="">
-						 
-					</div>
-					<div class="form-group">
-						<label for="exampleInputPassword1 mb-2">Şifre</label>
-						<input name="WriterPassword" type="password" class="form-control" id="exampleInputPassword1" placeholder="" required="">
-					</div>
-					<div class="form-check mb-2">
-						<input type="checkbox" class="form-check-input" id="exampleCheck1">
-						<label class="form-check-label" for="exampleCheck1">Beni Hatirla</label>
-					</div>
-					<button type="submit" class="btn btn-primary submit mb-4">Giriş Yap</button>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Blog</title>
 
-					<p><a href="/web/register.html">Hesabınız yok mu ? </a></p>
-				</form>
-			</div>
-		</div>
-	</div>
-</section>
+    <link href="~/inspinia-gh-pages/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/animate.css" rel="stylesheet">
+    <link href="~/inspinia-gh-pages/css/style.css" rel="stylesheet">
 
+    <style>
+        body {
+            background: url('/inspinia-gh-pages/img/Login.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh; /* Tam ekran yüksekliği */
+            margin: 0;
+            display: flex;
+            justify-content: center; /* Yatayda ortalar */
+            align-items: center; /* Dikeyde ortalar */
+        }
+
+        .middle-box {
+            background-color: rgba(0, 0, 0, 0.6); /* Siyah arka plan %60 saydam */
+            padding: 20px;
+            border-radius: 10px;
+            color: black; /* Yazı rengini siyah yap */
+            width: 100%; /* Genişliği tam yap */
+            max-width: 400px; /* Max genişlik ver */
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Hafif gölge efekti */
+        }
+
+            .middle-box p, .middle-box input, .middle-box button {
+                color: black;
+            }
+
+            .middle-box h2, .middle-box h3 {
+                color: white;
+            }
+
+        input::placeholder {
+            color: lightgray; /* Placeholder rengini değiştirir */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+                <h2>Core Blog</h2>
+            </div>
+            <h3>Giriş Yapın</h3>
+            <form method="post">
+                <div class="form-group">
+
+                    <input type="text" class="form-control" asp-for="@Model.username" placeholder="Kullanıcı Adı">
+                </div>
+
+                <div class="form-group">
+                    <input type="password" class="form-control" asp-for="@Model.password" placeholder="Şifre" required="">
+                </div>
+
+                <button type="submit" class="btn btn-primary block full-width m-b">Giriş</button>
+
+                <p class="text-center" style="color:white"><small>Henüz hesabın yok mu?</small></p>
+                <a class="btn btn-sm btn-white btn-block " href="/RegisterUser/Index/">Kayıt ol</a>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="~/inspinia-gh-pages/js/jquery-3.1.1.min.js"></script>
+    <script src="~/inspinia-gh-pages/js/popper.min.js"></script>
+    <script src="~/inspinia-gh-pages/js/bootstrap.js"></script>
+    <script src="~/inspinia-gh-pages/js/plugins/iCheck/icheck.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.i-checks').iCheck({
+                checkboxClass: 'icheckbox_square-green',
+                radioClass: 'iradio_square-green',
+            });
+        });
+    </script>
+</body>
+
+</html>

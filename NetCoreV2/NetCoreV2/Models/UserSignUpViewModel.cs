@@ -17,7 +17,7 @@ namespace NetCoreV2.Models
         public string ConfirmPassword { get; set; }
 
         [Display(Name = "Mail Adresi")]
-        [Required(ErrorMessage = "Mail adresinizi giriniz")]
+        [Required(ErrorMessage = "Lütfen Mail adresinizi giriniz")]
         public string Mail { get; set; }
 
 
