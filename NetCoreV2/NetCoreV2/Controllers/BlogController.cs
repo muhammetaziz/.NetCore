@@ -10,18 +10,21 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NetCoreV2.Controllers
 {
-
+    [AllowAnonymous]
     public class BlogController : Controller
     {
         Context c = new Context();
         CategoryManager cm = new CategoryManager();
         BlogManager bm = new BlogManager(new EFBlogRepository());
+
+        [AllowAnonymous]
         public IActionResult Index()
         {
             var values = bm.GetBlogListWithCategory();
             return View(values);
         }
 
+        //[AllowAnonymous]
         public IActionResult BlogReadAll(int id)
         {
             ViewBag.i = id;
@@ -38,9 +41,7 @@ namespace NetCoreV2.Controllers
 
             return View(values);
         }
-
-
-        //Blog ekleme işlemleri
+          
         [HttpGet]
         public IActionResult BlogAdd()
         {

@@ -3,9 +3,8 @@
 <div class="comment-top">
 	<h4>Yorum Bırak</h4>
 	<div class="comment-bottom">
-		<form action="/Comment/PartialAddComment/" method="post">
-		 
-
+		<form asp-controller="Comment" asp-action="PartialAddComment" method="post"> 
+			<input type="type" name="name" value="@ViewBag.i" />
  			<input class="form-control" type="text" name="CommentUserName" placeholder="Ad Soyad" required=""> 
 			<input class="form-control" type="text" name="CommentTitle" placeholder="Konu" required=""> 
 			<textarea class="form-control" name="CommentContent" placeholder="Yorum..." required=""></textarea>
