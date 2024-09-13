@@ -54,11 +54,11 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult WriterEditProfile()
         {
-            var usermail = User.Identity.Name; 
             Context c = new Context();
+            var username = User.Identity.Name;
+            var usermail=c.Users.Where(x=>x.UserName==username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
-
-
+             
             var writerValues = wm.TGetById(writerId);
             return View(writerValues);
         }

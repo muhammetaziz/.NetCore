@@ -37,6 +37,8 @@ namespace NetCoreV2.Controllers
             var usermail = User.Identity.Name;
 
             var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+
+
             var values = bm.GetListWithCategoryByWriterbm(writerId);
 
             return View(values);
