@@ -1,34 +1,39 @@
-﻿@model EntityLayer.Concrete.Writer
+﻿@model UserUpdateViewModel
 
 @{
     ViewData["Title"] = "WriterEditProfile";
     Layout = "~/Views/Shared/WriterLayout.cshtml";
 }
-@using (Html.BeginForm("WriterEditProfile", "Writer", FormMethod.Post))
-{
+ 
     <div class="col-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Yazar Profil Düzenleme</h4>
-                <form class="forms-sample">
-
-                    @Html.HiddenFor(x=>x.WriterID,new{@class="form-control"})
+                <form class="forms-sample" method="post"> 
                     <div class="form-group">
                         <label for="exampleInputName1">Yazar Ad Soyad</label>
-                        @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.WriterName, "", new { @class = "text-danger" })
+                       <input type="text"  class="form-control" asp-for="@Model.namesurname"/> 
+
+                        @* @Html.ValidationMessageFor(x => x.NameSurname, "", new { @class = "text-danger" }) *@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail3">Email</label>
-                        @Html.TextBoxFor(x => x.WriterEmail, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.WriterEmail, "", new { @class = "text-danger" })
+                        <label for="exampleInputEmail3">Email</label> 
+                       <input type="text"  class="form-control" asp-for="@Model.email"/> 
+                        @* @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" }) *@
                     </div>
-
+ 
+                    <div class="form-group">
+                        <label for="exampleInputEmail3">Kullanıcı Adı</label>
+                       <input type="text"  class="form-control" asp-for="@Model.username"/> 
+                        
+                       @*  @Html.ValidationMessageFor(x => x.UserName, "", new { @class = "text-danger" }) *@
+                    </div>
+@*
                     <div class="form-group">
                         <label for="exampleInputPassword4">Şifre</label>
-                        @Html.TextBoxFor(x => x.WriterPassword, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.WriterPassword, "", new { @class = "text-danger" })
+                        @Html.TextBoxFor(x => x.PasswordHash, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.PasswordHash, "", new { @class = "text-danger" })
                     </div>
 
                     <div class="form-group">
@@ -40,24 +45,24 @@
                                 <button class="file-upload-browse btn btn-gradient-primary" type="button">Upload</button>
                             </span>
                         </div>
-                    </div>
-                     
+                    </div> *@
+
                     <div class="form-group">
                         <label for="exampleTextarea1">Yazar Resim</label>
-                        @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+                        <input type="text" class="form-control" asp-for="@Model.ımageurl" /> 
                     </div>
 
-                    <div class="form-group">
-                        <label for="exampleTextarea1">Yazar Hakkında</label>
-                        @Html.TextAreaFor(x => x.WriterAbout, new { @class = "form-control" })
-                        @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
-                    </div>
+                    @* <div class="form-group">
+                <label for="exampleTextarea1">Yazar Hakkında</label>
+                @Html.TextAreaFor(x => x.WriterAbout, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.WriterAbout, "", new { @class = "text-danger" })
+                </div>
 
-                    <div>
-                        <label>Yazar Durumu</label>
-                        @Html.CheckBoxFor(x => x.WriterStatus)
-                    </div>
-                    
+                <div>
+                <label>Yazar Durumu</label>
+                @Html.CheckBoxFor(x => x.WriterStatus)
+                </div>
+                *@
                     <br />
                     <br />
 
@@ -67,4 +72,4 @@
             </div>
         </div>
     </div>
-}
+ 

@@ -5,6 +5,7 @@ using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreV2.Models;
 
@@ -16,6 +17,13 @@ namespace NetCoreV2.Controllers
     public class WriterController : Controller
     {
         WriterManager wm = new WriterManager(new EFWriterRepository());
+
+        private readonly UserManager<AppUser> _userManager;
+
+        public WriterController(UserManager<AppUser> userManager)
+        {
+            this._userManager = userManager;
+        }
 
         [Authorize]
         public IActionResult Index()
@@ -50,40 +58,51 @@ namespace NetCoreV2.Controllers
             return PartialView();
         }
 
-        
+
         [HttpGet]
-        public IActionResult WriterEditProfile()
+        public async Task<IActionResult> WriterEditProfile()
         {
-            Context c = new Context();
-            var username = User.Identity.Name;
-            var usermail=c.Users.Where(x=>x.UserName==username).Select(y => y.Email).FirstOrDefault();
-            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
-             
-            var writerValues = wm.TGetById(writerId);
-            return View(writerValues);
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            UserUpdateViewModel model = new UserUpdateViewModel();
+            model.email = values.Email;
+            model.namesurname = values.NameSurname;
+            model.ımageurl = values.ImageUrl;
+            model.username = values.UserName;
+            return View(model);
         }
 
-        [AllowAnonymous]
         [HttpPost]
-        public IActionResult WriterEditProfile(Writer p)
+        public async Task<IActionResult> WriterEditProfile(UserUpdateViewModel model)
         {
-            WriterValidator wl = new WriterValidator();
-            ValidationResult results = wl.Validate(p);
-            if (results.IsValid)
-            {
-                wm.TUpdate(p);
-                return RedirectToAction("Index", "Dashboard");
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+              
+            values.NameSurname = model.namesurname;
+            values.UserName = model.username;
+            values.Email = model.email;
+            values.ImageUrl = model.ımageurl;
 
-            }
-            else
-            {
-                foreach (var item in results.Errors)
-                {
-                    ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
-                }
-            }
+            var result = await _userManager.UpdateAsync(values);
 
-            return View();
+            return RedirectToAction("Index", "Dashboard");
+
+
+            //WriterValidator wl = new WriterValidator();
+            //ValidationResult results = wl.Validate(p);
+            //if (results.IsValid)
+            //{
+            //    wm.TUpdate(p);
+            //    return RedirectToAction("Index", "Dashboard");
+
+            //}
+            //else
+            //{
+            //    foreach (var item in results.Errors)
+            //    {
+            //        ModelState.AddModelError(item.PropertyName, item.ErrorMessage);
+            //    }
+            //}
+
+            //return View();
         }
         [HttpGet]
         public IActionResult WriterAdd()
