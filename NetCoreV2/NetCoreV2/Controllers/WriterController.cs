@@ -16,10 +16,8 @@ namespace NetCoreV2.Controllers
     [AllowAnonymous]
     public class WriterController : Controller
     {
-        WriterManager wm = new WriterManager(new EFWriterRepository());
-
-        private readonly UserManager<AppUser> _userManager;
-
+        WriterManager wm = new WriterManager(new EFWriterRepository()); 
+        private readonly UserManager<AppUser> _userManager; 
         public WriterController(UserManager<AppUser> userManager)
         {
             this._userManager = userManager;
@@ -80,7 +78,7 @@ namespace NetCoreV2.Controllers
             values.UserName = model.username;
             values.Email = model.email;
             values.ImageUrl = model.ımageurl;
-
+            values.PasswordHash=_userManager.PasswordHasher.HashPassword(values,model.password);
             var result = await _userManager.UpdateAsync(values);
 
             return RedirectToAction("Index", "Dashboard");
@@ -132,5 +130,7 @@ namespace NetCoreV2.Controllers
             wm.TUpdate(w);
             return RedirectToAction("Index", "Dashboard");
         }
+
+        
     }
 }

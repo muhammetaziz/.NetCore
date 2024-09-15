@@ -33,6 +33,7 @@ namespace NetCoreV2.Controllers
         public IActionResult MessageDetails(int id)
         { 
             var values = mm.TGetById(id);
+            ViewBag.sn = "Gonderen";
             return View(values);
         }
     }

@@ -20,9 +20,9 @@ namespace NetCoreV2.ViewComponents.Writer
             ViewBag.UserName = username; 
 
             var usermail=c.Users.Where(x=>x.UserName==username).Select(y=>y.Email).FirstOrDefault();
-            ViewBag.UserMail=usermail;
 
             var writerId = c.Writers.Where(x => x.WriterEmail == username).Select(y => y.WriterID).FirstOrDefault(); 
+            ViewBag.UserMail=usermail;
             var values = writerManager.GetWriterById(writerId);
             return View(values);
         }

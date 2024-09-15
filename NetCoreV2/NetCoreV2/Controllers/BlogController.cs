@@ -23,31 +23,24 @@ namespace NetCoreV2.Controllers
             var values = bm.GetBlogListWithCategory();
             return View(values);
         }
-
-        //[AllowAnonymous]
         public IActionResult BlogReadAll(int id)
         {
             ViewBag.i = id;
             var values = bm.GetBlogById(id);
             return View(values);
         }
-
-        public IActionResult BlogListByWriter(int id)
+        public IActionResult BlogListByWriter()
         {
-            var usermail = User.Identity.Name;
-
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
-
-
             var values = bm.GetListWithCategoryByWriterbm(writerId);
-
             return View(values);
         }
-          
+
         [HttpGet]
         public IActionResult BlogAdd()
         {
-
             List<SelectListItem> categoryValues = (from x in cm.GetList()
                                                    select new SelectListItem
                                                    {
@@ -62,14 +55,17 @@ namespace NetCoreV2.Controllers
         [HttpPost]
         public IActionResult BlogAdd(Blog p)
         {
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+
             BlogValidator bv = new BlogValidator();
             ValidationResult results = bv.Validate(p);
             if (results.IsValid)
             {
                 p.BlogStatus = true;
                 p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-                var usermail = User.Identity.Name;
-                var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+                 
                 p.WriterID = writerId;
                 bm.TAdd(p);
                 return RedirectToAction("BlogListByWriter", "Blog");
@@ -107,12 +103,13 @@ namespace NetCoreV2.Controllers
         [HttpPost]
         public IActionResult EditBlog(Blog p)
         {
-
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
             p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
-            p.WriterID = 1;
+            p.WriterID = writerId;
             bm.TUpdate(p);
             return RedirectToAction("BlogListByWriter");
         }
-
     }
 }
