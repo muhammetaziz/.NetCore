@@ -41,7 +41,7 @@
                             <th>
                                 <input type="checkbox">
                             </th>
-                            <th>Gönderen</th>
+                            <th>Gönderilen</th>
                             <th>Konu</th>
                             <th>Tarih</th>
                             <th></th>
@@ -53,11 +53,11 @@
 
                             <tr>
                                 <td><input type="checkbox"></td>
-                                <td>@item.SenderUser.WriterName</td>
-                                <td>@item.MessageSubject </td>
+                                 <td>@item.ReciverUser.WriterName </td>
+                                 <td>@item.MessageSubject </td>
                                 <td>@(((DateTime)item.MessageDate).ToString("dd-MMM-yyyy"))</td>
                                 <td>
-                                    <a class="btn btn-outline-primary" href="/Message/MessageDetails/@item.MessageID">  Görüntüle </a>
+                                    <a class="btn btn-outline-primary" href="/Message/MessageDetails2/@item.MessageID">Oku</a>
                                 </td>
                             </tr>
                         }

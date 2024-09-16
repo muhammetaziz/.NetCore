@@ -1,0 +1,37 @@
+﻿@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "MessageDetails2";
+    Layout = "~/Views/Shared/WriterLayout.cshtml";
+}
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h1>Mesaj Detayları</h1>
+            @Html.TextBoxFor(x => x.MessageID, new { @class = "form-control", @readonly = true, @hidden = true })
+
+            <br />
+            @Html.Label("Gönderen ID")
+            <textarea readonly class="form-control">@ViewBag.SenderName</textarea>
+
+            <br />
+
+            @Html.Label("Konu")
+            @Html.TextBoxFor(x => x.MessageSubject, new { @class = "form-control", @readonly = true })
+
+            <br />
+
+            @Html.Label("İçerik")
+            @Html.TextAreaFor(x => x.MessageDetails, 20, 3, new { @class = "form-control", @readonly = true })
+
+            <br />
+
+            @Html.Label("Gönderim Tarihi")
+            @Html.TextBoxFor(x => x.MessageDate, new { @class = "form-control", @readonly = true })
+
+            <br />
+            <br />
+            <button class="btn btn-primary submit mb-4"> <a href="/Message/Inbox/">Inbox</a></button>
+
+        </div>
+    </div>
+</div>

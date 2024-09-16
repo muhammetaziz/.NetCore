@@ -48,8 +48,10 @@
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
-                        {
-                            if (item.MessageStatus != true)
+                        {   //okunmus mesaj => stattus==true
+                            //okunmamış=>status==false
+
+                            if (item.MessageStatus == true)
                             {
                                 <tr>
                                     <td><input type="checkbox"></td>
