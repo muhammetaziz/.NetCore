@@ -10,10 +10,10 @@
             @using (Html.BeginForm("SendMessage", "Message", FormMethod.Post))
             {
                 <h1>Yeni Mesaj</h1>
-
+                
                 <label class="form-label">Alıcı</label>
-@*                 @Html.TextBoxFor(x => x.ReciverUser.WriterEmail, new { @class = "form-control", @type = "email" })
- *@                <br />
+                @Html.TextBoxFor(x=>x.MessageReciverID, new{@class="form-control", @type="number"})
+               <br />
 
                 <label class="form-label">Konu</label>
                 @Html.TextBoxFor(x => x.MessageSubject, new { @class = "form-control" })

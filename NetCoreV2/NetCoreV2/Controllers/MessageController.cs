@@ -51,7 +51,6 @@ namespace NetCoreV2.Controllers
 
         public IActionResult MessageDetails2(int id)
         {
-            
             var username = User.Identity.Name;
             var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
             var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
@@ -64,7 +63,6 @@ namespace NetCoreV2.Controllers
         [HttpGet]
         public IActionResult SendMessage()
         {
-
             return View();
         }
 
@@ -73,10 +71,10 @@ namespace NetCoreV2.Controllers
         {
             var username = User.Identity.Name;
             var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
-            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
-
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();   
+            
             p.MessageSenderID= writerId;
-            p.MessageReciverID = 2;
+            //p.MessageReciverID = 2;
             p.MessageStatus=true;
             p.MessageDate= DateTime.Now;
             mm.TAdd(p);
