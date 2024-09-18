@@ -6701,6 +6701,10 @@
       "PackagePath": "staticwebassets\\web\\images\\banner5.jpg"
     },
     {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\chip.png",
+      "PackagePath": "staticwebassets\\web\\images\\chip.png"
+    },
+    {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\hülagüHan.jpeg",
       "PackagePath": "staticwebassets\\web\\images\\hülagüHan.jpeg"
     },
@@ -6947,6 +6951,10 @@
     {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2",
       "PackagePath": "staticwebassets\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\customer-centricity.png",
+      "PackagePath": "staticwebassets\\writer\\assets\\images\\customer-centricity.png"
     },
     {
       "Id": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\dashboard\\circle.png",

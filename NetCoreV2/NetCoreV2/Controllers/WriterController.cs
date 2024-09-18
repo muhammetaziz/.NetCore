@@ -14,8 +14,10 @@ using NetCoreV2.Models;
 namespace NetCoreV2.Controllers
 {
     [AllowAnonymous]
+
     public class WriterController : Controller
     {
+        Context c = new Context();
         WriterManager wm = new WriterManager(new EFWriterRepository()); 
         private readonly UserManager<AppUser> _userManager; 
         public WriterController(UserManager<AppUser> userManager)
@@ -27,8 +29,7 @@ namespace NetCoreV2.Controllers
         public IActionResult Index()
         {
             var usermail = User.Identity.Name;
-            ViewBag.v = usermail;
-            Context c = new Context();
+            ViewBag.v = usermail; 
             var writerName = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterName).FirstOrDefault();
             ViewBag.v2 = writerName;
             return View();
@@ -38,19 +39,15 @@ namespace NetCoreV2.Controllers
             return View();
         }
 
-        [AllowAnonymous]
-        public IActionResult Test()
-        {
-            return View();
-        }
+         
 
-        [AllowAnonymous]
+         
         public PartialViewResult WriterNavbarPartial1()
         {
             return PartialView();
         }
 
-        [AllowAnonymous]
+         
         public PartialViewResult WriterFooterPartial()
         {
             return PartialView();
@@ -129,6 +126,30 @@ namespace NetCoreV2.Controllers
 
             wm.TUpdate(w);
             return RedirectToAction("Index", "Dashboard");
+        }
+
+        
+
+        public IActionResult WriterProfileCard()
+        {
+            var username = User.Identity.Name.ToUpper();
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault(); 
+            var writerImage = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterImage).FirstOrDefault(); 
+            var writerStatus = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterStatus).FirstOrDefault(); 
+            var writerAbout = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterAbout).FirstOrDefault(); 
+
+
+            ViewBag.WriterStatus = writerStatus;
+            ViewBag.WriterImage = writerImage;
+            ViewBag.WriterName = username;
+            ViewBag.WriterEmail=usermail;
+            ViewBag.WriterAbout= writerAbout;
+            ViewBag.WriterId= writerId;
+            
+             
+
+            return View();
         }
 
         

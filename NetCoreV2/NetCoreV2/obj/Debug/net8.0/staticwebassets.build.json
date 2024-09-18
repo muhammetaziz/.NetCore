@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vn7JOfGBMpmz4Xzkp2NquJ7MC7xed3GGJjFWxJjuUl4=",
+  "Hash": "DG6l9Fu6N/ruL0xBWQestOsPn3DNT38cjHF0jo0Xm6s=",
   "Source": "NetCoreV2",
   "BasePath": "_content/NetCoreV2",
   "Mode": "Default",
@@ -31778,6 +31778,25 @@
       "OriginalItemSpec": "wwwroot\\web\\images\\BreakingBad.jpg"
     },
     {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\chip.png",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "web/images/chip.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\web\\images\\chip.png"
+    },
+    {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\web\\images\\Frostpunk.jpg",
       "SourceId": "NetCoreV2",
       "SourceType": "Discovered",
@@ -32935,6 +32954,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\writer\\assets\\fonts\\Ubuntu\\Ubuntu-Regular.woff2"
+    },
+    {
+      "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\customer-centricity.png",
+      "SourceId": "NetCoreV2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\",
+      "BasePath": "_content/NetCoreV2",
+      "RelativePath": "writer/assets/images/customer-centricity.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\writer\\assets\\images\\customer-centricity.png"
     },
     {
       "Identity": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\writer\\assets\\images\\dashboard\\circle.png",

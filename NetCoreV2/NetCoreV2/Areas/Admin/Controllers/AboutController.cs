@@ -2,12 +2,14 @@
 using DataAccessLayer.EntityFramework;
 using DocumentFormat.OpenXml.Office2010.Excel;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace NetCoreV2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [AllowAnonymous]
     public class AboutController : Controller
     {
         AboutManager am = new AboutManager(new EFAboutRepository());
