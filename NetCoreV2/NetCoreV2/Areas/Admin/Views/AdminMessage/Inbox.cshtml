@@ -1,0 +1,76 @@
+﻿@using EntityLayer.Concrete
+@model List<Message2>
+@{
+    ViewData["Title"] = "Inbox";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-lg-2">
+            <div class="ibox">
+                <div class="ibox-content mailbox-content">
+                    <div class="file-manager">
+                        <a class="btn btn-block btn-primary compose-mail" href="mail_compose.html">Mailler</a>
+                        <div class="space-25"></div>
+                        <h5>@ViewBag.Mail</h5>
+                        <ul class="folder-list m-b-md" style="padding: 0">
+                            <li>
+                                <a href="/Admin/Contact/Index/">
+                                    <i class="fa fa-inbox"></i> Gelen Kutusu
+                                    <span class="label label-warning float-right">16</span>
+                                </a>
+                            </li>
+                            <li><a href="mailbox.html"> <i class="fa fa-envelope-o"></i> Gönderilen</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-10">
+            <div class="mail-box-header">
+                <h2>Gelen Kutusu</h2>
+                <div class="mail-tools tooltip-demo m-t-md">
+                    <div class="btn-group float-right">
+                        <button class="btn btn-white btn-sm"><i class="fa fa-arrow-left"></i></button>
+                        <button class="btn btn-white btn-sm"><i class="fa fa-arrow-right"></i></button>
+                    </div>
+                    <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="left" title="/Admin/AdminMessage/Inbox/"><i class="fa fa-refresh"></i> Refresh</button>
+                    <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Mark as read"><i class="fa fa-eye"></i> </button>
+                    <button class="btn btn-white btn-sm" data-toggle="tooltip" data-placement="top" title="Mark as important"><i class="fa fa-exclamation"></i> </button>
+                </div>
+            </div>
+            <div class="mail-box">
+                <table class="table table-hover table-mail">
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="read">
+                                <td class="check-mail">
+                                    <input type="checkbox" class="i-checks">
+                                </td>
+                                <td class="mail-ontact">
+                                    <a href="/Admin/AdminMessage/MessageDetails/@item.MessageID">@item.SenderUser.WriterName</a>
+                                </td>
+                                <td class="mail-subject">
+                                    <a href="/Admin/AdminMessage/MessageDetails/@item.MessageID">@item.MessageSubject</a>
+                                </td>
+                                <td class="text-right mail-date">
+                                    @item.MessageDate.ToShortDateString()
+                                </td>
+                                <td width="100px" class="text-end">
+                                    <a class="btn btn-outline-primary btn-sm" href="/Admin/AdminMessage/MessageDetails/@item.MessageID" title="Görüntüle">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                    <a class="btn btn-outline-danger btn-sm ms-2" href="/Admin/AdminMessage/Delete/@item.MessageID" title="Sil">
+                                        <i class="fa fa-trash-o"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
