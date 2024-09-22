@@ -1,0 +1,60 @@
+﻿@model EntityLayer.Concrete.Blog
+@{
+    ViewData["Title"] = "EditBlog";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+             
+            @using (Html.BeginForm("EditBlog", "Blog", new { area = "Admin" }, FormMethod.Post))
+            {
+                @Html.Label("Blog ID")
+                @Html.TextBoxFor(x => x.BlogID, new { @class = "form-control" })
+
+                <br />
+                @Html.Label("Blog Başlığı")
+                @Html.TextBoxFor(x => x.BlogTitle, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogTitle)
+
+
+                <br />
+
+                @Html.Label("Blog Görsel")
+                @Html.TextBoxFor(x => x.BlogImage, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogImage)
+
+
+                <br />
+
+                @Html.Label("Blog buyuk resim")
+                @Html.TextBoxFor(x => x.BlogThumbnailImage, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogThumbnailImage)
+
+
+                <br />
+
+                @Html.Label("Blog Kategori")
+                @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.cv, new { @class = "form-control" })
+
+                <br />
+
+                @Html.Label("Blog İçeriği")
+                @Html.TextAreaFor(x => x.BlogContent, 10, 3, new { @class = "form-control" })
+                @Html.ValidationMessageFor(x => x.BlogContent)
+
+                <br />
+
+                @Html.Label("Blog Durumu   :")
+                @Html.CheckBoxFor(x => x.BlogStatus)
+
+
+                <br />
+                <br />
+                <br />
+                <button class="btn btn-primary submit mb-4">Güncelle</button>
+            }
+        </div>
+    </div>
+</div>

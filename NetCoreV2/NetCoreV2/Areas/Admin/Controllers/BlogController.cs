@@ -2,7 +2,9 @@
 using ClosedXML.Excel;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using NetCoreV2.Areas.Admin.Models;
 
@@ -11,8 +13,9 @@ namespace NetCoreV2.Areas.Admin.Controllers
     [Area("Admin")]
     public class BlogController : Controller
     {
-        BlogManager bm=new BlogManager(new EFBlogRepository());
-
+        BlogManager bm=new BlogManager(new EFBlogRepository()); 
+        CategoryManager cm=new CategoryManager(new EFCategoryRepository());
+        Context c=new Context();
         public IActionResult ExportStaticExelBlogList()
         {
             using (var workbook = new XLWorkbook())
@@ -49,9 +52,7 @@ namespace NetCoreV2.Areas.Admin.Controllers
         public IActionResult BlogListExell()
         {
             return View();
-        }
-
-
+        } 
         public IActionResult ExportDynamicExelBlogList()
         {
             using (var workbook = new XLWorkbook())
@@ -107,13 +108,39 @@ namespace NetCoreV2.Areas.Admin.Controllers
         public IActionResult BlogTitleListExcel()
         {
             return View();
-        }
-
+        } 
         public IActionResult BlogListForAdmin()
         {
             var value=bm.GetBlogListWithCategory();
             
             return View(value);
         }
+
+        [HttpGet]
+        public IActionResult EditBlog(int id)
+        {
+            var blogValue = bm.TGetById(id);
+            List<SelectListItem> categoryValues = (from x in cm.GetList()
+                                                   select new SelectListItem
+                                                   {
+                                                       Text = x.CategoryName,
+                                                       Value = x.CategoryID.ToString()
+
+                                                   }).ToList();
+            ViewBag.cv = categoryValues;
+            return View(blogValue);
+        }
+        [HttpPost]
+        public IActionResult EditBlog(Blog p)
+        {
+            var username = User.Identity.Name;
+            var usermail = c.Users.Where(x => x.UserName == username).Select(y => y.Email).FirstOrDefault();
+            var writerId = c.Writers.Where(x => x.WriterEmail == usermail).Select(y => y.WriterID).FirstOrDefault();
+            p.BlogCreateDate = DateTime.Parse(DateTime.Now.ToShortDateString());
+            p.WriterID = writerId;
+            bm.TUpdate(p); 
+            return RedirectToAction("BlogListForAdmin", "Blog", new { area = "Admin" });
+        }
+
     }
 }
