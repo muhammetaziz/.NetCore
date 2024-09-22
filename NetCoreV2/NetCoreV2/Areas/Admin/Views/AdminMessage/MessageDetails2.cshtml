@@ -1,0 +1,82 @@
+﻿@model EntityLayer.Concrete.Message2
+@{
+    ViewData["Title"] = "MessageDetails2";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <!-- Sol Kısım: Gelen Kutusu ve Giden Kutusu -->
+        <div class="col-lg-2">
+            <div class="ibox">
+                <div class="ibox-content mailbox-content">
+                    <div class="file-manager">
+                        <a class="btn btn-block btn-primary compose-mail mb-3" href="/mail_compose.html">Yeni Mesaj</a>
+                        <h5>Klasörler</h5>
+                        <ul class="folder-list m-b-md list-unstyled">
+                            <li>
+                                <a href="/Admin/Contact/Index/">
+                                    <i class="fa fa-inbox"></i> Gelen Kutusu
+                                    <span class="badge badge-warning float-right">16</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Admin/Contact/Sent/">
+                                    <i class="fa fa-envelope-o"></i> Gönderilen
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ Kısım: Mesaj Detayları -->
+        <div class="col-lg-10">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h3 class="mb-4">Mesaj Detayları</h3>
+
+                    <div class="row">
+                        <!-- Gönderen Bilgisi -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.Label("Gönderen")
+                                <input type="text" readonly class="form-control" value="@ViewBag.SenderName" />
+                            </div>
+                        </div>
+
+                        <!-- Gönderim Tarihi -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                @Html.Label("Gönderim Tarihi")
+                                @Html.TextBoxFor(x => x.MessageDate, new { @class = "form-control", @readonly = true })
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Konu -->
+                    <div class="form-group">
+                        @Html.Label("Konu")
+                        @Html.TextBoxFor(x => x.MessageSubject, new { @class = "form-control", @readonly = true })
+                    </div>
+
+                    <!-- Mesaj İçeriği -->
+                    <div class="form-group">
+                        @Html.Label("İçerik")
+                        @Html.TextAreaFor(x => x.MessageDetails, 8, 3, new { @class = "form-control", @readonly = true })
+                    </div>
+
+                    <!-- Geri Dön Butonu -->
+                    <div class="text-right mt-4">
+                        <a href="/Admin/AdminMessage/Inbox" class="btn btn-secondary">
+                            <i class="fa fa-arrow-left"></i> Gelen Kutusuna Dön
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
