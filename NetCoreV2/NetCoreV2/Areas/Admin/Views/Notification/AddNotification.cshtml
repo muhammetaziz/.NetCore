@@ -1,0 +1,26 @@
+﻿@model EntityLayer.Concrete.Natification
+
+@{
+    ViewData["Title"] = "AddNotification";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+ 
+@using (Html.BeginForm("AddNotification", "Notification", new { area = "Admin" }, FormMethod.Post))
+
+{
+    <div class="form-group">
+        @Html.Label("Bildirim Türü")
+        @Html.TextBoxFor(x => x.NotificationType, new { @class = "form-control", placeholder = "Bildirim Açıklaması Giriniz" })
+    </div>
+
+    <div class="form-group">
+        @Html.Label("Bildirim Açıklaması")
+        @Html.TextBoxFor(x => x.NotificationDetails, new { @class = "form-control", placeholder = "Bildirim Açıklaması Giriniz" })
+
+    </div>
+     
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary btn-block">Kaydet</button>
+    </div>
+}
+
