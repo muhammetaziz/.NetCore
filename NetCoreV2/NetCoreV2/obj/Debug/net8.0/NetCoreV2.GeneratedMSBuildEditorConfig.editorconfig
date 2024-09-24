@@ -46,6 +46,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZXNzYWdlXE1lc3NhZ2VEZXRhaWxzMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/AdminMessage/NewMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZXNzYWdlXE5ld01lc3NhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/AzizProjeler/.NetCore/NetCoreV2/NetCoreV2/Areas/Admin/Views/AdminMessage/Outbox.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQWRtaW5NZXNzYWdlXE91dGJveC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

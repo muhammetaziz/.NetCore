@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\notification\\adminnatificationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\notification\\adminnatificationlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\adminmessage\\newmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\adminmessage\\newmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\category\\categoryadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\category\\categoryadd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\controllers\\adminmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\controllers\\adminmessagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\notification\\addnotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\notification\\addnotification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\adminmessage\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\adminmessage\\inbox.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\admin\\adminnavbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\admin\\adminnavbarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\writer\\writernavbarpartial1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\writer\\writernavbarpartial1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\controllers\\blogcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\blog\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AdminNavbarPartial.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Admin\\AdminNavbarPartial.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Admin\\AdminNavbarPartial.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Admin\\AdminNavbarPartial.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Admin\\AdminNavbarPartial.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAADkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-23T16:47:45.45Z",
               "IsPinned": true,
@@ -64,106 +44,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NotificationController.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\NotificationController.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Controllers\\NotificationController.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\NotificationController.cs",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\NotificationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:44:17.802Z",
+              "DocumentIndex": 0,
+              "Title": "NewMessage.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\NewMessage.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\NewMessage.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\NewMessage.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\NewMessage.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-24T20:45:42.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CategoryAdd.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Category\\CategoryAdd.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Category\\CategoryAdd.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Category\\CategoryAdd.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Category\\CategoryAdd.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T17:01:11.227Z",
+              "Title": "AdminMessageController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\AdminMessageController.cs",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Controllers\\AdminMessageController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Controllers\\AdminMessageController.cs",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Controllers\\AdminMessageController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwFAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T20:28:48.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AddNotification.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Notification\\AddNotification.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Notification\\AddNotification.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Notification\\AddNotification.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Notification\\AddNotification.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Title": "Inbox.cshtml",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\Inbox.cshtml",
+              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\Inbox.cshtml",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\Inbox.cshtml",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\AdminMessage\\Inbox.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T17:01:07.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADYAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T16:54:35.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminNatificationList.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Notification\\AdminNatificationList.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\Notification\\AdminNatificationList.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\Notification\\AdminNatificationList.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\Notification\\AdminNatificationList.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T16:48:55.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\Index.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Blog\\Index.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Blog\\Index.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Blog\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T16:48:36.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WriterNavbarPartial1.cshtml",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Writer\\WriterNavbarPartial1.cshtml",
-              "RelativeDocumentMoniker": "NetCoreV2\\Views\\Writer\\WriterNavbarPartial1.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Writer\\WriterNavbarPartial1.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Views\\Writer\\WriterNavbarPartial1.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-23T16:46:59.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BlogController.cs",
-              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\BlogController.cs",
-              "RelativeDocumentMoniker": "NetCoreV2\\Controllers\\BlogController.cs",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Controllers\\BlogController.cs",
-              "RelativeToolTip": "NetCoreV2\\Controllers\\BlogController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T16:41:00.069Z",
+              "WhenOpened": "2024-09-24T20:29:03.742Z",
               "EditorCaption": ""
             },
             {
