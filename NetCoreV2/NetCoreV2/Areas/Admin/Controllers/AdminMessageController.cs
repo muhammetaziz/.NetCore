@@ -12,6 +12,8 @@ namespace NetCoreV2.Areas.Admin.Controllers
     {
         Context c = new Context();
         Message2Manager mm = new Message2Manager(new EFMessage2Repository());
+
+        #region Mesaj  Goruntüleme(Inbox Outbox Details)
         public IActionResult Inbox()
         {
             var username = User.Identity.Name;
@@ -49,6 +51,7 @@ namespace NetCoreV2.Areas.Admin.Controllers
             ViewBag.SenderName = c.Message2s.Where(x => x.MessageSenderID == writerId).Select(y => y.ReciverUser.WriterName).FirstOrDefault();
             return View(values);
         }
+
         public IActionResult MessageStatusChange(int id)
         {
             var messageValue = mm.TGetById(id);
@@ -58,6 +61,10 @@ namespace NetCoreV2.Areas.Admin.Controllers
             return View();
         }
 
+        #endregion
+        
+        
+        #region  Yeni Mesaj (NewMessage)
         [HttpGet]
         public IActionResult NewMessage()
         {
@@ -77,9 +84,11 @@ namespace NetCoreV2.Areas.Admin.Controllers
             p.MessageDate = DateTime.Now;
             mm.TAdd(p);
 
-            //    return RedirectToAction("Inbox", "AdminMessage", new { area = "Admin" });
-            return View();
+             return RedirectToAction("Inbox", "AdminMessage", new { area = "Admin" });
+            
         }
 
+        #endregion
     }
 }
+  

@@ -17,10 +17,14 @@ namespace NetCoreV2.Controllers
         CategoryManager cm = new CategoryManager();
         BlogManager bm = new BlogManager(new EFBlogRepository());
 
+
+        #region BlogMainPage
+
         [AllowAnonymous]
         public IActionResult Index()
         {
             var values = bm.GetBlogListWithCategory();
+             
             return View(values);
         }
         public IActionResult BlogReadAll(int id)
@@ -29,6 +33,8 @@ namespace NetCoreV2.Controllers
             var values = bm.GetBlogById(id);
             return View(values);
         }
+        #endregion
+        #region WriterBlog(Add,Update,Delete,List)
         public IActionResult BlogListByWriter()
         {
             var username = User.Identity.Name;
@@ -37,7 +43,6 @@ namespace NetCoreV2.Controllers
             var values = bm.GetListWithCategoryByWriterbm(writerId);
             return View(values);
         }
-
         [HttpGet]
         public IActionResult BlogAdd()
         {
@@ -111,5 +116,6 @@ namespace NetCoreV2.Controllers
             bm.TUpdate(p);
             return RedirectToAction("BlogListByWriter");
         }
+        #endregion
     }
 }

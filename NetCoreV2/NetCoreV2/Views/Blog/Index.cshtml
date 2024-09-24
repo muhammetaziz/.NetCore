@@ -14,6 +14,7 @@
 
                     @foreach (var item in Model)
                     {
+                        @ViewBag.writerName
                         if (item.BlogStatus)
                         { 
                             <div class="col-lg-4 card" style="height:650px">
@@ -34,7 +35,7 @@
                                         </li>
                                         <li>
                                             <a href="#">
-                                                <i class="fas fa-archive"></i>@item.Category.CategoryName
+                                                <i class="fas fa-archive"></i>@item.Category.CategoryName 
                                             </a>
                                         </li>
 
