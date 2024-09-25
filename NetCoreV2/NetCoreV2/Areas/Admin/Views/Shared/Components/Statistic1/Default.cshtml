@@ -70,13 +70,15 @@
     </div>
     <div class="col-lg-3">
         <div class="widget lazur-bg no-padding">
-            <div class="p-m"> 
-                <h1 class="m-xs">Son eklenen blog</h1>
-                <h2 class="font-bold no-margins">
-                    @ViewBag.LastBlog
-                </h2>
-                <small><a href="/Admin/Blog/Index/">Bloglar</a></small>
-            </div>
+            <a   href="/Admin/Blog/BlogListForAdmin/">
+                <div class="p-m">
+                    <h1 class="m-xs">Son eklenen blog</h1>
+                    <h2 class="font-bold no-margins">
+                        @ViewBag.LastBlog
+                    </h2>
+                    Bloglar
+                </div>
+            </a>
             <div class="flot-chart">
                 <div class="flot-chart-content" id="flot-chart2"></div>
             </div>
@@ -90,7 +92,7 @@
                 <h3 class="font-bold no-margins">
                     Toplam Site Kazancı
                 </h3>
-                 
+
             </div>
             <div class="flot-chart">
                 <div class="flot-chart-content" id="flot-chart3"></div>

@@ -16,6 +16,7 @@ namespace NetCoreV2.Areas.Admin.ViewComponents.Statistic
             ViewBag.ToplamMesajSayısı = c.Contacts.Count();
             ViewBag.ToplamYorumSayısı = c.Comments.Count();
             ViewBag.LastBlog = c.Blogs.OrderByDescending(x => x.BlogID).Select(x => x.BlogTitle).Take(1).FirstOrDefault();
+            ViewBag.LastBlogImage = c.Blogs.OrderByDescending(x => x.BlogID).Select(x => x.BlogImage).Take(1).FirstOrDefault();
             ViewBag.ToplamYazarSayısı = c.Writers.Count();
 
 
