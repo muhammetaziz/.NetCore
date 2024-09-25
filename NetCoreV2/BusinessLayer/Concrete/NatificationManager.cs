@@ -30,12 +30,12 @@ namespace BusinessLayer.Concrete
 
         public void TDelete(Natification t)
         {
-            throw new NotImplementedException();
+            _natificationDal.Delete(t);
         }
 
         public Natification TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _natificationDal.GetById(id);
         }
 
         public void TUpdate(Natification t)

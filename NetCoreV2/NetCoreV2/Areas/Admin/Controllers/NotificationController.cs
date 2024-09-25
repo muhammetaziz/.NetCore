@@ -32,6 +32,26 @@ namespace NetCoreV2.Areas.Admin.Controllers
             return RedirectToAction("AdminNatificationList", "Notification", new { area = "Admin" });
              
         }
-         
+        [HttpGet]
+        public IActionResult NotificationChangeSatut(int id)
+        {
+            var notification = nm.TGetById(id);
+            if (notification == null)
+            {
+                return NotFound();
+            }
+
+            notification.NatificationStatus = !notification.NatificationStatus; // Durumu değiştir
+            nm.TUpdate(notification); // Güncelle
+
+            return RedirectToAction("AdminNatificationList", "Notification", new { area = "Admin" });
+        }
+        [HttpGet]
+        public IActionResult NotificationDelete(int id)
+        {
+            var values=nm.TGetById(id);
+            nm.TDelete(values);
+            return RedirectToAction("AdminNatificationList", "Notification", new { area = "Admin" });
+        }
     }
 }

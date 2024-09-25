@@ -16,10 +16,12 @@
             <h4 class="card-title">Kategoriler</h4>
             <table class="table table-hover">
                 <thead>
-                    <tr class="tablero"> 
+                    <tr class="tablero">
                         <th>Bildirim</th>
                         <th>Tarih</th>
                         <th>Durum</th>
+                        <th width="10%">Durum</th>
+                        <th width="10%">Sil</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -38,10 +40,21 @@
                                 statusBadge = "badge badge-danger";
                             }
                         }
-                        <tr> 
+                        <tr>
                             <td>@item.NotificationDetails</td>
                             <td>@item.NatificationDate.ToShortDateString()</td>
-                            <td>@item.NatificationStatus</td>
+                            <td><label class="@statusBadge">@stat</label></td>
+                            <td>
+                                <a href="/Admin/Notification/NotificationChangeSatut/@item.NotificationID">
+                                    <i class="fa fa-minus-square" aria-hidden="true"></i>Aktif/Pasif
+                                </a>
+                            </td>
+                            <td>
+                                <a href="/Admin/Notification/NotificationDelete/@item.NotificationID">
+                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                    Sil
+                                </a>
+                            </td>
                         </tr>
                     }
                 </tbody>

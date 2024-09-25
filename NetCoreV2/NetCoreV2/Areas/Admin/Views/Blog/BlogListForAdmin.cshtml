@@ -18,7 +18,10 @@
         <div class="card-body">
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <h1 class="card-title" style="margin: 0;">Bloglar</h1>
-                <a class="btn btn-warning btn-sm" href="/Admin/Blog/ExportDynamicExelBlogList/" style="padding: 10px 20px; text-decoration: none;">Excel Tablosu</a>
+                <a class="btnav btn-outline-success btn-sm" href="/Admin/Blog/ExportDynamicExelBlogList/" style="padding: 10px 20px; text-decoration: none;">
+                    <i class="fa fa-table" aria-hidden="true"></i>
+                    Excel Tablosu
+                </a>
             </div>
             <br />
             <br />
@@ -53,10 +56,10 @@
                         }
                         <tr>
                             <td><img width="60px" height="60px" src="@item.BlogImage" alt="Blog Image" /></td>
-                            <td>@item.BlogTitle</td> 
+                            <td>@item.BlogTitle</td>
                             <td>@item.BlogContent.Substring(0, 200)</td>
-                            <td> <label class="badge badge-primary"> @item.Category.CategoryName</label> </td>
-                            <td>@item.BlogCreateDate.ToShortDateString()</td>
+                            <td align="center"> <label class="badge badge-primary"> @item.Category.CategoryName</label> </td>
+                            <td align="center">@item.BlogCreateDate.ToShortDateString()</td>
                             @*  <td><label class="@statusBadge">@stat</label></td> *@
                             <td width="150px" align="center">
 

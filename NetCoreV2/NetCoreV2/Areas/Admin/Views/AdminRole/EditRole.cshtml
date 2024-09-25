@@ -1,0 +1,21 @@
+﻿@using NetCoreV2.Models
+@model RoleUpdateViewModel
+@{
+    ViewData["Title"] = "EditRole";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+<h1>Rol Güncelleme</h1>
+
+
+<form method="post">
+    <input type="text" value="@Model.ID" name="ID" class="form-control" hidden="hidden"/>
+
+
+    <label class="form-label">Rol adı</label>
+    <input value="@Model.Name" class="form-control" name="Name" type="text" placeholder="Rol adı giriniz." />
+
+    <br />
+    <br />
+    <button type="submit" class="btn btn-outline-primary">Güncelle</button>
+</form>

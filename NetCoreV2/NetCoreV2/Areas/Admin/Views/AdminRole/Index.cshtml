@@ -1,0 +1,55 @@
+﻿@using EntityLayer.Concrete
+@model List<AppRole>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">Roller</h3>
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th width="10px">#</th>
+                        <th>Rol</th>
+                        <th width="10px">Düzenle</th>
+                        <th width="10px">Sil</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        {
+                            @* if (item.CommentStatus)
+                    {
+                    stat = "Aktif";
+                    statusBadge = "badge badge-primary";
+                    }
+                    else
+                    {
+                    stat = "Pasif";
+                    statusBadge = "badge badge-danger";
+                    } *@
+                        }
+                        <tr>
+
+                            <td>@item.Id</td>
+                            <td>@item.Name</td>
+                            <td align="center">
+                                <a href="/Admin/AdminRole/EditRole/@item.Id/" id="DeleteBtn" onclick="return confirm('Düzenlemek istediğinize emin misiniz');"><i class="fa fa-pencil  " aria-hidden="true"></i></a>
+                            </td>
+                            <td align="center">
+                                <a href="/Admin/AdminRole/DeleteRole/@item.Id/" id="DeleteBtn" onclick="return confirm('Silmek istediğinize emin misiniz');"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <br />
+            <a href="/Admin/AdminRole/AddRole/" class="btn btn-outline-primary"><i class="fa fa-plus-square" aria-hidden="true"></i> Yeni Rol Ekle</a>
+        </div>
+    </div>
+</div>
