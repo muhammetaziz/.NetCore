@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,8 +39,11 @@
               "ViewState": "AQIAAFkAAAAAAAAAAAAuwGQAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T21:24:20.079Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -48,9 +51,9 @@
               "Title": "AssignRole.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml",
-              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml",
-              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml*",
+              "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\AssignRole.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-26T20:56:08.134Z",
               "EditorCaption": ""
@@ -65,8 +68,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Models\\RoleAssignViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T20:50:19.807Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T20:50:19.807Z"
             },
             {
               "$type": "Document",
@@ -78,12 +80,7 @@
               "RelativeToolTip": "NetCoreV2\\Areas\\Admin\\Views\\AdminRole\\UserRoleList.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-26T20:38:15.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-09-26T20:38:15.397Z"
             }
           ]
         }
