@@ -9,9 +9,9 @@
 
 
 <table class="table table-bordered">
-    <tr >
-        <th>Kullanıcı</th>
-        <th>Rol</th>
+    <tr>
+        <th width="90%">Kullanıcı</th>
+        <th width="5%">Rol</th>
 
     </tr>
     <tbody>
@@ -19,10 +19,9 @@
         {
             <tr>
                 <td>@item.UserName</td>
-                <td> <a class="btn btn-outline-danger" href="/Admin/AdminRole/AssignRole/@item.Id">Rol</a></td>
+                <td align="center"> <a  href="/Admin/AdminRole/AssignRole/@item.Id"><i class="fa-solid fa-people-group"></i></a></td>
             </tr>
         }
-
     </tbody>
 </table>
 

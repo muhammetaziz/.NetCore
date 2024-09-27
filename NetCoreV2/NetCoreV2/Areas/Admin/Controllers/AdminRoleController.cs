@@ -115,6 +115,27 @@ namespace NetCoreV2.Areas.Admin.Controllers
                 model.Add(m);
             }
             return View(model);
-        } 
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AssignRole(List<RoleAssignViewModel> model)
+        {
+            var userid = (int)TempData["Userid"];
+            var user=_userManager.Users.FirstOrDefault(x=>x.Id==userid);
+
+            foreach (var item in model)
+            {
+                if (item.Exists)
+                {
+                    await _userManager.AddToRoleAsync(user, item.Name);
+
+                }
+                else
+                {
+                    await _userManager.RemoveFromRoleAsync(user,item.Name);
+                }
+            }
+            return RedirectToAction("UserRoleList");
+        }
     }
 }

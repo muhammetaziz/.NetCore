@@ -1,8 +1,59 @@
-﻿
+﻿@model List<RoleAssignViewModel>
 @{
     ViewData["Title"] = "AssignRole";
     Layout = "~/Areas/Admin/Views/Shared/AdminLayoutArea.cshtml";
 }
 
-<h1>AssignRole</h1>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="card shadow-sm border-0">
+                <div class="card-header bg-info text-white text-center">
+                    <h3 class="mb-0">Rol Atama</h3>
+                </div>
+                <div class="card-body">
+                    <form method="post">
+                        <div class="row">
+                            @for (int i = 0; i < Model.Count; i++)
+                            {
+                                <div class="col-md-6">
+                                    <div class="form-check form-switch mb-3">
+                                        <input type="hidden" asp-for="@Model[i].RoleID" />
+                                        <input type="hidden" asp-for="@Model[i].Name" />
+                                        <input type="checkbox" asp-for="@Model[i].Exists" class="form-check-input" id="roleCheck@i" />
+                                        <label class="form-check-label" for="roleCheck@i">@Model[i].Name</label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div class="text-center mt-4">
+                            <button class="btn btn-success px-4">Kaydet</button>
+                            <a href="/Admin/AdminRole/UserRoleList/" class="btn btn-outline-secondary px-4">Kullanıcı Listesine Dön</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<style> 
+
+    .card {
+        border-radius: 10px;
+    }
+
+    .form-check-label {
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #218838;
+        }
+</style>
