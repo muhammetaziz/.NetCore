@@ -13,14 +13,14 @@ void ConfigureServices(IServiceCollection services)
 {
     services.AddDbContext<Context>();
     services.AddIdentity<AppUser, AppRole>(x =>
-
+    
     {
         x.Password.RequireUppercase = false;
         x.Password.RequireNonAlphanumeric = false;
 
     }).AddEntityFrameworkStores<Context>();
 
-
+    
 
 
     services.AddControllersWithViews();
@@ -38,7 +38,11 @@ void ConfigureServices(IServiceCollection services)
     services.AddAuthentication(
         CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(x =>
         {
+            x.Cookie.HttpOnly = true;
+            x.ExpireTimeSpan = TimeSpan.FromMinutes(100);
             x.LoginPath = "/Login/Index";
+            x.AccessDeniedPath = new PathString("/Login/AccessDenied/");
+            x.SlidingExpiration = true;
         });
 }
 
@@ -52,6 +56,7 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }

@@ -3,6 +3,7 @@ using ClosedXML.Excel;
 using DataAccessLayer.Concrete;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
@@ -11,6 +12,8 @@ using NetCoreV2.Areas.Admin.Models;
 namespace NetCoreV2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin,Moderator")]
+
     public class BlogController : Controller
     {
         BlogManager bm=new BlogManager(new EFBlogRepository()); 
