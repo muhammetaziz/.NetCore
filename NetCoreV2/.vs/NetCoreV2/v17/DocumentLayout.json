@@ -50,8 +50,7 @@
               "RelativeToolTip": "jwt_core_proje\\Controllers\\DefaultController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T20:38:08.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T20:38:08.611Z"
             },
             {
               "$type": "Document",
@@ -63,13 +62,12 @@
               "RelativeToolTip": "jwt_core_proje\\DAL\\BuildToken.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T20:30:43.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T20:30:43.018Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "jwt_core_proje",
+              "Title": "jwt_core_proje.csproj",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\jwt_core_proje.csproj",
               "RelativeDocumentMoniker": "jwt_core_proje\\jwt_core_proje.csproj",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\jwt_core_proje.csproj",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "NetCoreV2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqGrid\\i18n\\grid.locale-ja.js",
               "ViewState": "AQIAACMAAAAAAAAAAAAtwDoAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-09-29T20:28:58.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T20:28:58.85Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "jwt_core_proje\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAgwBMAAACIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T20:16:44.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T20:16:44.161Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-27T22:36:04.383Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T22:36:04.383Z"
             }
           ]
         }
