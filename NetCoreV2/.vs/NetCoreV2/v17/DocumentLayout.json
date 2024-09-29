@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\jwt_core_proje\\jwt_core_proje.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|solutionrelative:jwt_core_proje\\jwt_core_proje.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\jwt_core_proje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|solutionrelative:jwt_core_proje\\controllers\\defaultcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\jwt_core_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|solutionrelative:jwt_core_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqgrid\\i18n\\grid.locale-ja.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqgrid\\i18n\\grid.locale-ja.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\jwt_core_proje\\dal\\buildtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D9415E13-D2EE-4B6B-87D2-7CF8B324CAFF}|jwt_core_proje\\jwt_core_proje.csproj|solutionrelative:jwt_core_proje\\dal\\buildtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|d:\\azizprojeler\\.netcore\\netcorev2\\netcorev2\\views\\shared\\writerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BD31774E-98E8-4862-B551-170D7E1B3A27}|NetCoreV2\\NetCoreV2.csproj|solutionrelative:netcorev2\\views\\shared\\writerlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -14,24 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DefaultController.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\Controllers\\DefaultController.cs",
+              "RelativeDocumentMoniker": "jwt_core_proje\\Controllers\\DefaultController.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\Controllers\\DefaultController.cs",
+              "RelativeToolTip": "jwt_core_proje\\Controllers\\DefaultController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:38:08.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuildToken.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\DAL\\BuildToken.cs",
+              "RelativeDocumentMoniker": "jwt_core_proje\\DAL\\BuildToken.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\DAL\\BuildToken.cs",
+              "RelativeToolTip": "jwt_core_proje\\DAL\\BuildToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:30:43.018Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "jwt_core_proje",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\jwt_core_proje.csproj",
+              "RelativeDocumentMoniker": "jwt_core_proje\\jwt_core_proje.csproj",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\jwt_core_proje.csproj",
+              "RelativeToolTip": "jwt_core_proje\\jwt_core_proje.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-29T20:30:19.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "grid.locale-ja.js",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqGrid\\i18n\\grid.locale-ja.js",
+              "RelativeDocumentMoniker": "NetCoreV2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqGrid\\i18n\\grid.locale-ja.js",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqGrid\\i18n\\grid.locale-ja.js",
+              "RelativeToolTip": "NetCoreV2\\wwwroot\\inspinia-gh-pages\\js\\plugins\\jqGrid\\i18n\\grid.locale-ja.js",
+              "ViewState": "AQIAACMAAAAAAAAAAAAtwDoAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-29T20:28:58.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\Program.cs",
+              "RelativeDocumentMoniker": "jwt_core_proje\\Program.cs",
+              "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\jwt_core_proje\\Program.cs",
+              "RelativeToolTip": "jwt_core_proje\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAgwBMAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T20:16:44.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WriterLayout.cshtml",
               "DocumentMoniker": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "RelativeDocumentMoniker": "NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "ToolTip": "D:\\AzizProjeler\\.NetCore\\NetCoreV2\\NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
               "RelativeToolTip": "NetCoreV2\\Views\\Shared\\WriterLayout.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAASAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAABhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-27T22:36:04.383Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
